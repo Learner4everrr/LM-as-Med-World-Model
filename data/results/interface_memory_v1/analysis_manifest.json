@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-11-03T15:14:35.976910+00:00",
+  "post_primary": true,
+  "partial": false,
+  "original_primary_unchanged": true,
+  "annotation_required": false,
+  "source_sha256": "05bab06050e3cb06879588c57873c13c24ad057e11a1649d0dbd0615ebd19904",
+  "integrity_sha256": "300c54ac7d94a3cb0c1726c406263c8da0ab33291d3c31ba25356695f4d43fdf",
+  "summary_sha256": "dd61c6871c6dd2005316b70aba02cc0f22f7bc3ea8b0747406c39ec09e1b9359",
+  "outputs": {
+    "data/results/interface_memory_v1/tables/extension_compute.tex": "17bc1c4326d183c4f5d813fe33ac385bde8697ef168104f6f0179a3d1bf2f51a",
+    "data/results/interface_memory_v1/tables/interface_action.tex": "5d91ff16c06058bde51a6cd80a79f2a0a51505f1c614c90663ad20eae315af40",
+    "data/results/interface_memory_v1/tables/interface_intervals.tex": "30c83b21adba528f978d1564dc2f5aedbc2c1aaef9d760e322c57dcf1afa552c",
+    "data/results/interface_memory_v1/tables/interface_paired.tex": "04e5a7659a1b079448da2f10f1f2acbcf6630644bce4dd7e1a168edac7a9b83b",
+    "data/results/interface_memory_v1/tables/interface_trajectory.tex": "b617f5f22aecf08a6741866f8c3cf68183f6f89a9af55eaf84410f282de8a7e6",
+    "data/results/interface_memory_v1/tables/retrieval_0.tex": "b2409b837a12bf505f811b48bf2c745e165598245030f7b8a0855ecb14c2ba36",
+    "data/results/interface_memory_v1/tables/retrieval_6.tex": "ff7c9bc51c95da0c2e521ba7196b76e83650baa88f01ddae12bcad90cc758e31",
+    "data/results/interface_memory_v1/tables/retrieval_compliance.tex": "69841e7cb3f62ccf659522cfab16592f880ef3a3e6bc0dfef3ca415980d78bce",
+    "data/results/interface_memory_v1/tables/retrieval_time_components.tex": "e2f250c252e5ecab69b095b71c4a55796eb25ee1d0e0d359998f1d5d18a382e1",
+    "data/results/interface_memory_v1/figures/interface_sensitivity.pdf": "6e5e5709598ba4e0ff630d837959225b25ba35ca36264a8c319017f8e8a82a99",
+    "data/results/interface_memory_v1/figures/interface_sensitivity.png": "93e2415a33d47980c18f52b90fc766f18a44a4ada67ba6d987c879aa8dae8238"
+  }
+}

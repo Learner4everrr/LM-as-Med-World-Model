@@ -1,0 +1,240 @@
+{
+  "timestamp_utc": "2026-11-02T20:39:00.244249+00:00",
+  "post_hoc": true,
+  "no_prediction_repair": true,
+  "categories": [
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "domain": "simglucose",
+      "first_failures": 25,
+      "categories": {
+        "invalid_json_or_nonobject": 25,
+        "missing_schema_variable_or_value": 0,
+        "quoted_numeric_point_value": 0,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 0,
+        "other": 0
+      }
+    },
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "domain": "anesthesia",
+      "first_failures": 147,
+      "categories": {
+        "invalid_json_or_nonobject": 143,
+        "missing_schema_variable_or_value": 4,
+        "quoted_numeric_point_value": 0,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 0,
+        "other": 0
+      }
+    },
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "domain": "vitaldb",
+      "first_failures": 0,
+      "categories": {
+        "invalid_json_or_nonobject": 0,
+        "missing_schema_variable_or_value": 0,
+        "quoted_numeric_point_value": 0,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 0,
+        "other": 0
+      }
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "domain": "simglucose",
+      "first_failures": 0,
+      "categories": {
+        "invalid_json_or_nonobject": 0,
+        "missing_schema_variable_or_value": 0,
+        "quoted_numeric_point_value": 0,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 0,
+        "other": 0
+      }
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "domain": "anesthesia",
+      "first_failures": 164,
+      "categories": {
+        "invalid_json_or_nonobject": 0,
+        "missing_schema_variable_or_value": 0,
+        "quoted_numeric_point_value": 164,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 0,
+        "other": 0
+      }
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "domain": "vitaldb",
+      "first_failures": 0,
+      "categories": {
+        "invalid_json_or_nonobject": 0,
+        "missing_schema_variable_or_value": 0,
+        "quoted_numeric_point_value": 0,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 0,
+        "other": 0
+      }
+    },
+    {
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "domain": "simglucose",
+      "first_failures": 270,
+      "categories": {
+        "invalid_json_or_nonobject": 122,
+        "missing_schema_variable_or_value": 0,
+        "quoted_numeric_point_value": 148,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 0,
+        "other": 0
+      }
+    },
+    {
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "domain": "anesthesia",
+      "first_failures": 270,
+      "categories": {
+        "invalid_json_or_nonobject": 105,
+        "missing_schema_variable_or_value": 0,
+        "quoted_numeric_point_value": 164,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 1,
+        "other": 0
+      }
+    },
+    {
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "domain": "vitaldb",
+      "first_failures": 120,
+      "categories": {
+        "invalid_json_or_nonobject": 64,
+        "missing_schema_variable_or_value": 0,
+        "quoted_numeric_point_value": 50,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 6,
+        "other": 0
+      }
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "domain": "simglucose",
+      "first_failures": 2,
+      "categories": {
+        "invalid_json_or_nonobject": 2,
+        "missing_schema_variable_or_value": 0,
+        "quoted_numeric_point_value": 0,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 0,
+        "other": 0
+      }
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "domain": "anesthesia",
+      "first_failures": 10,
+      "categories": {
+        "invalid_json_or_nonobject": 9,
+        "missing_schema_variable_or_value": 1,
+        "quoted_numeric_point_value": 0,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 0,
+        "other": 0
+      }
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "domain": "vitaldb",
+      "first_failures": 0,
+      "categories": {
+        "invalid_json_or_nonobject": 0,
+        "missing_schema_variable_or_value": 0,
+        "quoted_numeric_point_value": 0,
+        "boolean_point_value": 0,
+        "other_nonnumeric_or_nonfinite_point": 0,
+        "other": 0
+      }
+    }
+  ],
+  "script_sha256": "cd2e8c9cca773eeaa0d166a049ee405ebe0b95a73a8e2ff605c6174a72fc7356",
+  "protocol_sha256": "1e110b8c5f66d07906f230b8d2568b92342149d4b12a8ff948f5590d33756330",
+  "source_hashes": {
+    "data/runs/interface_memory_v1/test/Qwen--Qwen2.5-7B-Instruct/raw.jsonl": "cc3f22e09c901119c4c322821db9f6fc59cce68f967418f04f63dccddd6ceb94",
+    "data/runs/interface_memory_v1/test/Qwen--Qwen2.5-7B-Instruct/predictions.jsonl": "ffa508418c8465ab3a87f44b44399773c7964ef06bfa0590a1d755becdbfd7c1",
+    "data/runs/interface_memory_v1/test/Qwen--Qwen3-8B/raw.jsonl": "ee0ea1374e6315e00b440aed3d1e55199d1e79ec7fbad7426327cfc07db197c6",
+    "data/runs/interface_memory_v1/test/Qwen--Qwen3-8B/predictions.jsonl": "46db8d5d19bb92ac25d3fb10fb853e51ca88efd726a69647b5587adedef7e3b7",
+    "data/runs/interface_memory_v1/test/microsoft--Phi-3.5-mini-instruct/raw.jsonl": "c3ce081f469f0ce3ca3dac821ef40ce2f83985ebc8ed082546429bca057faec2",
+    "data/runs/interface_memory_v1/test/microsoft--Phi-3.5-mini-instruct/predictions.jsonl": "003e532a16a367b0c7e73acf6aa07753e5a929b0ca4b82f3cccbbf2494fceded",
+    "data/runs/interface_memory_v1/test/mistralai--Mistral-7B-Instruct-v0.3/raw.jsonl": "ff8b16efd9fefa1a4aeb10116518073a86781e030082389edc4158c6ce6dd80b",
+    "data/runs/interface_memory_v1/test/mistralai--Mistral-7B-Instruct-v0.3/predictions.jsonl": "f2b511a21055f07ccaf0388583ad64020ab1234c2e4ef18fac8d21a82dc448c7"
+  },
+  "fixed_order_synthetic_examples": [
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "domain": "simglucose",
+      "id": "ef0252bdf64562ed27f63780_A",
+      "step": 9,
+      "category": "invalid_json_or_nonobject",
+      "raw": "{\"next_state\":{\"CGM\":{\"value\":128.1977,\"lower\":127.985,\"upper\":128.41}}}`",
+      "prompt_hash": "450c799d29bccbb63d314314edfb5142de0f925e53bd886377301c40913abb43"
+    },
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "domain": "anesthesia",
+      "id": "834e86c49207cd6e2bbf722a_A",
+      "step": 4,
+      "category": "invalid_json_or_nonobject",
+      "raw": "{\"next_state\":{\"BIS\":{\"value\":62.9243,\"lower\":62.5347,\"upper\":63.3139},\"MAP\":{\"value\":39.4385,\"lower\":39.2147,\"upper\":39.6623}}}`whelm`",
+      "prompt_hash": "f3435ae2dc48bd57090e1b6845dcaf8e2b3397d7c717fd1b1035185903b7f9d6"
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "domain": "anesthesia",
+      "id": "834e86c49207cd6e2bbf722a_A",
+      "step": 8,
+      "category": "quoted_numeric_point_value",
+      "raw": "{\"next_state\":{\"BIS\":{\"value\":\"57.6443\",\"lower\":\"56.6443\",\"upper\":\"58.6443\"},\"MAP\":{\"value\":\"39.459\",\"lower\":\"38.459\",\"upper\":\"40.459\"}}}",
+      "prompt_hash": "6347202eaaca6cb9815032645bacc466c4a6712ae147b9aed47e3e43646ba67a"
+    },
+    {
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "domain": "simglucose",
+      "id": "56bd63ce9808f9f242171bdd_A",
+      "step": 1,
+      "category": "quoted_numeric_point_value",
+      "raw": "{\"next_state\":{\"CGM\":{\"value\":\"149.4943\", \"lower\":\"148.9943\", \"upper\":\"150.9943\"}}}",
+      "prompt_hash": "4b595837b0b06d2ef3c981fd1c40bb5f8c9e660edfdd9d576a921c15d59c407b"
+    },
+    {
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "domain": "anesthesia",
+      "id": "834e86c49207cd6e2bbf722a_A",
+      "step": 2,
+      "category": "quoted_numeric_point_value",
+      "raw": "{\"next_state\":{\"BIS\":{\"value\":\"62.0\",\"lower\":\"60.0\",\"upper\":\"64.0\"},\"MAP\":{\"value\":\"38.5\",\"lower\":\"37.5\",\"upper\":\"39.5\"}}}",
+      "prompt_hash": "f266592bf6487b83fa90b6bd27b768759783864172378f82fe8e6dfe7df60909"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "domain": "simglucose",
+      "id": "1eb485dffbc89888540412f4_A",
+      "step": 9,
+      "category": "invalid_json_or_nonobject",
+      "raw": "{\"next_state\":{\"CGM\":{\"value\":180.62,\"lower\":179.54,\"upper\":181.7}}}}",
+      "prompt_hash": "7d9e3d5eb56fcdcffd54b471882010a6948d5bc968b326bb305f7fe012e18b0a"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "domain": "anesthesia",
+      "id": "f09f9c779a928bf0e98d3c12_B",
+      "step": 9,
+      "category": "invalid_json_or_nonobject",
+      "raw": "{\"next_state\":{\"BIS\":{\"value\":76.23,\"lower\":74.8213,\"upper\":77.435},\"MAP\":{\"value\":61.71,\"lower\":57.7461,\"upper\":65.0}}}}",
+      "prompt_hash": "53313eb9670ad6def6b0e12d2b43ac77b2e06430e5ea3a027e6227b3d4329fc9"
+    }
+  ]
+}

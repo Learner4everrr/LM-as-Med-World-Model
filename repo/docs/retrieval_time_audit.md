@@ -1,0 +1,4 @@
+# Post hoc temporal-component audit
+Specified after inspection of the final interface/history summaries and fixed-first synthetic responses. The aggregate temporal endpoint combines current time, query time and current past-action interval start. All initial-anchor aggregate temporal scores were zero, although several models extracted state/actions correctly. Fixed examples suggested selection of a different row for interval start.
+
+Report the three original temporal fields separately using their unchanged 1e-8 tolerance and first-object content parser, all tasks, original patient/profile clustering and bootstrap seed. Verify that their conjunction reproduces the original temporal score. This descriptive decomposition changes no response, target, score, prompt or frozen endpoint. It does not identify whether the cause is attention, instruction interpretation, serialization or another mechanism. Report all model/domain/anchor combinations; no human annotation.

@@ -1,0 +1,1220 @@
+[
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "simglucose",
+    "variable": "CGM",
+    "event": "high_glucose",
+    "positive_clusters": 18,
+    "positive_points": 1934,
+    "miss_rate": {
+      "mean": 0.18301708577665954,
+      "lo": 0.08933822590593692,
+      "hi": 0.2840873582540252,
+      "clusters": 18,
+      "n": 18
+    },
+    "false_positive_rate": {
+      "mean": 0.250104115535313,
+      "lo": 0.11648244646435071,
+      "hi": 0.4050302363105829,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.8254231100654184,
+      "lo": 0.7103861500241201,
+      "hi": 0.9233472648209061,
+      "clusters": 18,
+      "n": 18
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "simglucose",
+    "variable": "CGM",
+    "event": "high_glucose",
+    "positive_clusters": 18,
+    "positive_points": 1934,
+    "miss_rate": {
+      "mean": 0.36643048101901504,
+      "lo": 0.1897059848832499,
+      "hi": 0.556110786217952,
+      "clusters": 18,
+      "n": 18
+    },
+    "false_positive_rate": {
+      "mean": 0.015394912985274432,
+      "lo": 0.0,
+      "hi": 0.04618473895582329,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.9863095238095239,
+      "lo": 0.9589285714285715,
+      "hi": 1.0,
+      "clusters": 14,
+      "n": 14
+    }
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "simglucose",
+    "variable": "CGM",
+    "event": "high_glucose",
+    "positive_clusters": 18,
+    "positive_points": 1934,
+    "miss_rate": {
+      "mean": 0.8386863771334334,
+      "lo": 0.7527375547143528,
+      "hi": 0.9036597870702273,
+      "clusters": 18,
+      "n": 18
+    },
+    "false_positive_rate": {
+      "mean": 0.01768269249245787,
+      "lo": 0.0,
+      "hi": 0.04365292109426542,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.9252804487179487,
+      "lo": 0.8270382612179487,
+      "hi": 1.0,
+      "clusters": 16,
+      "n": 16
+    }
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "simglucose",
+    "variable": "CGM",
+    "event": "high_glucose",
+    "positive_clusters": 18,
+    "positive_points": 1934,
+    "miss_rate": {
+      "mean": 0.9235978835978835,
+      "lo": 0.8133333333333334,
+      "hi": 1.0,
+      "clusters": 18,
+      "n": 18
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "clusters": 3,
+      "n": 3
+    }
+  },
+  {
+    "model": "persistence",
+    "domain": "simglucose",
+    "variable": "CGM",
+    "event": "high_glucose",
+    "positive_clusters": 18,
+    "positive_points": 1934,
+    "miss_rate": {
+      "mean": 0.31807010737103075,
+      "lo": 0.15996890131391175,
+      "hi": 0.49008724385996505,
+      "clusters": 18,
+      "n": 18
+    },
+    "false_positive_rate": {
+      "mean": 0.015394912985274432,
+      "lo": 0.0,
+      "hi": 0.04618473895582329,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.9872222222222222,
+      "lo": 0.9616666666666667,
+      "hi": 1.0,
+      "clusters": 15,
+      "n": 15
+    }
+  },
+  {
+    "model": "boosted_action",
+    "domain": "simglucose",
+    "variable": "CGM",
+    "event": "high_glucose",
+    "positive_clusters": 18,
+    "positive_points": 1934,
+    "miss_rate": {
+      "mean": 0.1282098568038087,
+      "lo": 0.05735097382004646,
+      "hi": 0.21193581576433254,
+      "clusters": 18,
+      "n": 18
+    },
+    "false_positive_rate": {
+      "mean": 0.15324778861269292,
+      "lo": 0.07092098932970058,
+      "hi": 0.23643967583365036,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.8639199544530197,
+      "lo": 0.77009080519143,
+      "hi": 0.9444629413537305,
+      "clusters": 18,
+      "n": 18
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 3,
+    "positive_points": 81,
+    "miss_rate": {
+      "mean": 0.3333333333333333,
+      "lo": 0.0,
+      "hi": 1.0,
+      "clusters": 3,
+      "n": 3
+    },
+    "false_positive_rate": {
+      "mean": 0.0315166839471481,
+      "lo": 0.006848878359802288,
+      "hi": 0.06571180980894063,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.16117424242424241,
+      "lo": 0.0,
+      "hi": 0.3821117424242388,
+      "clusters": 8,
+      "n": 8
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 3,
+    "positive_points": 81,
+    "miss_rate": {
+      "mean": 0.6666666666666666,
+      "lo": 0.0,
+      "hi": 1.0,
+      "clusters": 3,
+      "n": 3
+    },
+    "false_positive_rate": {
+      "mean": 0.004664970313825276,
+      "lo": 0.0,
+      "hi": 0.013994910941475825,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.8166666666666667,
+      "lo": 0.8166666666666667,
+      "hi": 0.8166666666666667,
+      "clusters": 1,
+      "n": 1
+    }
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 3,
+    "positive_points": 81,
+    "miss_rate": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "clusters": 3,
+      "n": 3
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": null,
+      "lo": null,
+      "hi": null,
+      "clusters": 0,
+      "n": 0
+    }
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 3,
+    "positive_points": 81,
+    "miss_rate": {
+      "mean": 0.6666666666666666,
+      "lo": 0.0,
+      "hi": 1.0,
+      "clusters": 3,
+      "n": 3
+    },
+    "false_positive_rate": {
+      "mean": 0.004664970313825276,
+      "lo": 0.0,
+      "hi": 0.013994910941475825,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.8166666666666667,
+      "lo": 0.8166666666666667,
+      "hi": 0.8166666666666667,
+      "clusters": 1,
+      "n": 1
+    }
+  },
+  {
+    "model": "persistence",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 3,
+    "positive_points": 81,
+    "miss_rate": {
+      "mean": 0.6666666666666666,
+      "lo": 0.0,
+      "hi": 1.0,
+      "clusters": 3,
+      "n": 3
+    },
+    "false_positive_rate": {
+      "mean": 0.004664970313825276,
+      "lo": 0.0,
+      "hi": 0.013994910941475825,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.8166666666666667,
+      "lo": 0.8166666666666667,
+      "hi": 0.8166666666666667,
+      "clusters": 1,
+      "n": 1
+    }
+  },
+  {
+    "model": "boosted_action",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 3,
+    "positive_points": 81,
+    "miss_rate": {
+      "mean": 0.618524332810047,
+      "lo": 0.16326530612244894,
+      "hi": 1.0,
+      "clusters": 3,
+      "n": 3
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "clusters": 2,
+      "n": 2
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 17,
+    "positive_points": 1923,
+    "miss_rate": {
+      "mean": 0.32604569575215203,
+      "lo": 0.2303070861085946,
+      "hi": 0.43100667199543835,
+      "clusters": 17,
+      "n": 17
+    },
+    "false_positive_rate": {
+      "mean": 0.10855884647013025,
+      "lo": 0.027189398951215728,
+      "hi": 0.23198609822043864,
+      "clusters": 17,
+      "n": 17
+    },
+    "precision": {
+      "mean": 0.8845061510998671,
+      "lo": 0.7890915592193622,
+      "hi": 0.9605276559763456,
+      "clusters": 17,
+      "n": 17
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 17,
+    "positive_points": 1923,
+    "miss_rate": {
+      "mean": 0.12628601258261096,
+      "lo": 0.07478635636708249,
+      "hi": 0.1835715473499318,
+      "clusters": 17,
+      "n": 17
+    },
+    "false_positive_rate": {
+      "mean": 0.3779031398049446,
+      "lo": 0.20547303055185484,
+      "hi": 0.5661785875701224,
+      "clusters": 17,
+      "n": 17
+    },
+    "precision": {
+      "mean": 0.7869867699923222,
+      "lo": 0.6637839212405094,
+      "hi": 0.8913190102471922,
+      "clusters": 17,
+      "n": 17
+    }
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 17,
+    "positive_points": 1923,
+    "miss_rate": {
+      "mean": 0.8340875533893023,
+      "lo": 0.7565309876063242,
+      "hi": 0.9038446201099715,
+      "clusters": 17,
+      "n": 17
+    },
+    "false_positive_rate": {
+      "mean": 0.054824331771704427,
+      "lo": 0.01615786744035718,
+      "hi": 0.10172117869244086,
+      "clusters": 17,
+      "n": 17
+    },
+    "precision": {
+      "mean": 0.8777412777359721,
+      "lo": 0.7677562386934733,
+      "hi": 0.9694548988247258,
+      "clusters": 16,
+      "n": 16
+    }
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 17,
+    "positive_points": 1923,
+    "miss_rate": {
+      "mean": 0.06919866401823574,
+      "lo": 0.028251949208117265,
+      "hi": 0.12142230802446052,
+      "clusters": 17,
+      "n": 17
+    },
+    "false_positive_rate": {
+      "mean": 0.4959239768306591,
+      "lo": 0.320920592995798,
+      "hi": 0.6786458580279646,
+      "clusters": 17,
+      "n": 17
+    },
+    "precision": {
+      "mean": 0.7065620997797954,
+      "lo": 0.5567771193016559,
+      "hi": 0.8372131492488334,
+      "clusters": 18,
+      "n": 18
+    }
+  },
+  {
+    "model": "persistence",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 17,
+    "positive_points": 1923,
+    "miss_rate": {
+      "mean": 0.04320478071485324,
+      "lo": 0.00904977375565611,
+      "hi": 0.08703398736638056,
+      "clusters": 17,
+      "n": 17
+    },
+    "false_positive_rate": {
+      "mean": 0.4511077228429791,
+      "lo": 0.2544171051028159,
+      "hi": 0.6548423747708642,
+      "clusters": 17,
+      "n": 17
+    },
+    "precision": {
+      "mean": 0.7892156862745098,
+      "lo": 0.6698978758169936,
+      "hi": 0.8892238562091503,
+      "clusters": 17,
+      "n": 17
+    }
+  },
+  {
+    "model": "boosted_action",
+    "domain": "anesthesia",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 17,
+    "positive_points": 1923,
+    "miss_rate": {
+      "mean": 0.039144008946959664,
+      "lo": 0.016231300780308586,
+      "hi": 0.06708822665946804,
+      "clusters": 17,
+      "n": 17
+    },
+    "false_positive_rate": {
+      "mean": 0.08824173132579285,
+      "lo": 0.04165760918381668,
+      "hi": 0.14051030359905914,
+      "clusters": 17,
+      "n": 17
+    },
+    "precision": {
+      "mean": 0.940427186953524,
+      "lo": 0.8974543808554641,
+      "hi": 0.9772025950014352,
+      "clusters": 17,
+      "n": 17
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "anesthesia",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 16,
+    "positive_points": 973,
+    "miss_rate": {
+      "mean": 0.3278245163407534,
+      "lo": 0.2205597165208065,
+      "hi": 0.45258614413991144,
+      "clusters": 16,
+      "n": 16
+    },
+    "false_positive_rate": {
+      "mean": 0.13215078723988685,
+      "lo": 0.08319893806608422,
+      "hi": 0.18549562789602633,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.6472645444282512,
+      "lo": 0.49256003280623323,
+      "hi": 0.7730278835437746,
+      "clusters": 18,
+      "n": 18
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "anesthesia",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 16,
+    "positive_points": 973,
+    "miss_rate": {
+      "mean": 0.567357409539613,
+      "lo": 0.3849271783125067,
+      "hi": 0.7458461281202655,
+      "clusters": 16,
+      "n": 16
+    },
+    "false_positive_rate": {
+      "mean": 0.05385399924435127,
+      "lo": 0.014048937721809294,
+      "hi": 0.10462911000814704,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.8369556171983357,
+      "lo": 0.6953147249190939,
+      "hi": 0.9398174410540916,
+      "clusters": 10,
+      "n": 10
+    }
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "anesthesia",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 16,
+    "positive_points": 973,
+    "miss_rate": {
+      "mean": 0.933970927386106,
+      "lo": 0.8725620361781077,
+      "hi": 0.98468856292517,
+      "clusters": 16,
+      "n": 16
+    },
+    "false_positive_rate": {
+      "mean": 0.001449492677562853,
+      "lo": 0.0,
+      "hi": 0.003873644224521417,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.9694444444444444,
+      "lo": 0.9250000000000002,
+      "hi": 1.0,
+      "clusters": 6,
+      "n": 6
+    }
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "anesthesia",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 16,
+    "positive_points": 973,
+    "miss_rate": {
+      "mean": 0.838013548951049,
+      "lo": 0.6765388257575757,
+      "hi": 0.9756410256410253,
+      "clusters": 16,
+      "n": 16
+    },
+    "false_positive_rate": {
+      "mean": 0.005749124170176801,
+      "lo": 0.0,
+      "hi": 0.016858872122030015,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.8027777777777777,
+      "lo": 0.4694444444444444,
+      "hi": 1.0,
+      "clusters": 6,
+      "n": 6
+    }
+  },
+  {
+    "model": "persistence",
+    "domain": "anesthesia",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 16,
+    "positive_points": 973,
+    "miss_rate": {
+      "mean": 0.6345410541839114,
+      "lo": 0.4239913732101232,
+      "hi": 0.8434794372294372,
+      "clusters": 16,
+      "n": 16
+    },
+    "false_positive_rate": {
+      "mean": 0.033924315105784406,
+      "lo": 0.00699266975308642,
+      "hi": 0.07021292547608336,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.8809523809523808,
+      "lo": 0.8238095238095238,
+      "hi": 0.9428571428571428,
+      "clusters": 7,
+      "n": 7
+    }
+  },
+  {
+    "model": "boosted_action",
+    "domain": "anesthesia",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 16,
+    "positive_points": 973,
+    "miss_rate": {
+      "mean": 0.1577875736442892,
+      "lo": 0.0644776463951706,
+      "hi": 0.27908773806725484,
+      "clusters": 16,
+      "n": 16
+    },
+    "false_positive_rate": {
+      "mean": 0.293732207492569,
+      "lo": 0.20988581035943513,
+      "hi": 0.38668378866079306,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.535873352588027,
+      "lo": 0.4027875834298858,
+      "hi": 0.6618133433821025,
+      "clusters": 18,
+      "n": 18
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 59,
+    "positive_points": 499,
+    "miss_rate": {
+      "mean": 0.5659391807854031,
+      "lo": 0.4577231307583593,
+      "hi": 0.6766856848033697,
+      "clusters": 59,
+      "n": 59
+    },
+    "false_positive_rate": {
+      "mean": 0.24272419864906675,
+      "lo": 0.16231568331557972,
+      "hi": 0.33034142678568834,
+      "clusters": 71,
+      "n": 71
+    },
+    "precision": {
+      "mean": 0.6187376864621447,
+      "lo": 0.5041087637207994,
+      "hi": 0.7269015620602308,
+      "clusters": 38,
+      "n": 38
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 59,
+    "positive_points": 499,
+    "miss_rate": {
+      "mean": 0.542792533372966,
+      "lo": 0.42610493054996507,
+      "hi": 0.6626789610464672,
+      "clusters": 59,
+      "n": 59
+    },
+    "false_positive_rate": {
+      "mean": 0.26243394886109295,
+      "lo": 0.16727962742127825,
+      "hi": 0.35872496152748035,
+      "clusters": 71,
+      "n": 71
+    },
+    "precision": {
+      "mean": 0.639297385620915,
+      "lo": 0.526531862745098,
+      "hi": 0.7463337418300653,
+      "clusters": 34,
+      "n": 34
+    }
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 59,
+    "positive_points": 499,
+    "miss_rate": {
+      "mean": 0.9616982386174808,
+      "lo": 0.9122632103688934,
+      "hi": 0.9955965437022266,
+      "clusters": 59,
+      "n": 59
+    },
+    "false_positive_rate": {
+      "mean": 0.01643192488262911,
+      "lo": 0.0,
+      "hi": 0.04694835680751175,
+      "clusters": 71,
+      "n": 71
+    },
+    "precision": {
+      "mean": 0.7083333333333334,
+      "lo": 0.375,
+      "hi": 1.0,
+      "clusters": 6,
+      "n": 6
+    }
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 59,
+    "positive_points": 499,
+    "miss_rate": {
+      "mean": 0.5151948915159283,
+      "lo": 0.4000252219531881,
+      "hi": 0.6395767459526184,
+      "clusters": 59,
+      "n": 59
+    },
+    "false_positive_rate": {
+      "mean": 0.2785375347571177,
+      "lo": 0.1784522552937764,
+      "hi": 0.3748314646041424,
+      "clusters": 71,
+      "n": 71
+    },
+    "precision": {
+      "mean": 0.6654040404040403,
+      "lo": 0.5606060606060606,
+      "hi": 0.7664141414141414,
+      "clusters": 33,
+      "n": 33
+    }
+  },
+  {
+    "model": "persistence",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 59,
+    "positive_points": 499,
+    "miss_rate": {
+      "mean": 0.5151948915159283,
+      "lo": 0.39683330959502444,
+      "hi": 0.6349684280491855,
+      "clusters": 59,
+      "n": 59
+    },
+    "false_positive_rate": {
+      "mean": 0.28972427240790277,
+      "lo": 0.187840852322171,
+      "hi": 0.3929009411158023,
+      "clusters": 71,
+      "n": 71
+    },
+    "precision": {
+      "mean": 0.6549479166666666,
+      "lo": 0.5520833333333334,
+      "hi": 0.7578125,
+      "clusters": 32,
+      "n": 32
+    }
+  },
+  {
+    "model": "boosted_action",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "low_BIS",
+    "positive_clusters": 59,
+    "positive_points": 499,
+    "miss_rate": {
+      "mean": 0.505564960961272,
+      "lo": 0.4031934000487714,
+      "hi": 0.6172320538384845,
+      "clusters": 59,
+      "n": 59
+    },
+    "false_positive_rate": {
+      "mean": 0.2344123771126865,
+      "lo": 0.1576642989888107,
+      "hi": 0.30972614098012935,
+      "clusters": 71,
+      "n": 71
+    },
+    "precision": {
+      "mean": 0.6214924456336719,
+      "lo": 0.5203316402598049,
+      "hi": 0.7200210729749845,
+      "clusters": 44,
+      "n": 44
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 15,
+    "positive_points": 52,
+    "miss_rate": {
+      "mean": 0.8333333333333334,
+      "lo": 0.6333333333333333,
+      "hi": 1.0,
+      "clusters": 15,
+      "n": 15
+    },
+    "false_positive_rate": {
+      "mean": 0.0806482546988876,
+      "lo": 0.0369198312236287,
+      "hi": 0.1308112773302646,
+      "clusters": 79,
+      "n": 79
+    },
+    "precision": {
+      "mean": 0.11904761904761904,
+      "lo": 0.0,
+      "hi": 0.2857142857142857,
+      "clusters": 14,
+      "n": 14
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 15,
+    "positive_points": 52,
+    "miss_rate": {
+      "mean": 0.9333333333333333,
+      "lo": 0.8,
+      "hi": 1.0,
+      "clusters": 15,
+      "n": 15
+    },
+    "false_positive_rate": {
+      "mean": 0.01371308016877637,
+      "lo": 0.0,
+      "hi": 0.04008438818565401,
+      "clusters": 79,
+      "n": 79
+    },
+    "precision": {
+      "mean": 0.25,
+      "lo": 0.0,
+      "hi": 0.5,
+      "clusters": 2,
+      "n": 2
+    }
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 15,
+    "positive_points": 52,
+    "miss_rate": {
+      "mean": 0.9444444444444444,
+      "lo": 0.8333333333333333,
+      "hi": 1.0,
+      "clusters": 15,
+      "n": 15
+    },
+    "false_positive_rate": {
+      "mean": 0.002109704641350211,
+      "lo": 0.0,
+      "hi": 0.006329113924050633,
+      "clusters": 79,
+      "n": 79
+    },
+    "precision": {
+      "mean": 0.8333333333333334,
+      "lo": 0.8333333333333334,
+      "hi": 0.8333333333333334,
+      "clusters": 1,
+      "n": 1
+    }
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 15,
+    "positive_points": 52,
+    "miss_rate": {
+      "mean": 0.8666666666666667,
+      "lo": 0.6666666666666666,
+      "hi": 1.0,
+      "clusters": 15,
+      "n": 15
+    },
+    "false_positive_rate": {
+      "mean": 0.03544303797468354,
+      "lo": 0.0037974683544303796,
+      "hi": 0.07851265822784793,
+      "clusters": 79,
+      "n": 79
+    },
+    "precision": {
+      "mean": 0.25,
+      "lo": 0.0,
+      "hi": 0.5,
+      "clusters": 4,
+      "n": 4
+    }
+  },
+  {
+    "model": "persistence",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 15,
+    "positive_points": 52,
+    "miss_rate": {
+      "mean": 0.8666666666666667,
+      "lo": 0.6666666666666666,
+      "hi": 1.0,
+      "clusters": 15,
+      "n": 15
+    },
+    "false_positive_rate": {
+      "mean": 0.03164556962025317,
+      "lo": 0.0,
+      "hi": 0.0759493670886076,
+      "clusters": 79,
+      "n": 79
+    },
+    "precision": {
+      "mean": 0.3333333333333333,
+      "lo": 0.0,
+      "hi": 0.5,
+      "clusters": 3,
+      "n": 3
+    }
+  },
+  {
+    "model": "boosted_action",
+    "domain": "vitaldb",
+    "variable": "BIS",
+    "event": "high_BIS",
+    "positive_clusters": 15,
+    "positive_points": 52,
+    "miss_rate": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "clusters": 15,
+      "n": 15
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "clusters": 79,
+      "n": 79
+    },
+    "precision": {
+      "mean": null,
+      "lo": null,
+      "hi": null,
+      "clusters": 0,
+      "n": 0
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "vitaldb",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 24,
+    "positive_points": 143,
+    "miss_rate": {
+      "mean": 0.6063988095238095,
+      "lo": 0.42034970238095243,
+      "hi": 0.7760416666666666,
+      "clusters": 24,
+      "n": 24
+    },
+    "false_positive_rate": {
+      "mean": 0.11778323800382623,
+      "lo": 0.06123407842157842,
+      "hi": 0.1781620136399548,
+      "clusters": 78,
+      "n": 78
+    },
+    "precision": {
+      "mean": 0.29537037037037034,
+      "lo": 0.16975308641975306,
+      "hi": 0.4395910493827156,
+      "clusters": 18,
+      "n": 18
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "vitaldb",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 24,
+    "positive_points": 143,
+    "miss_rate": {
+      "mean": 0.6875,
+      "lo": 0.5,
+      "hi": 0.875,
+      "clusters": 24,
+      "n": 24
+    },
+    "false_positive_rate": {
+      "mean": 0.06895604395604395,
+      "lo": 0.024725274725274724,
+      "hi": 0.1250915750915751,
+      "clusters": 78,
+      "n": 78
+    },
+    "precision": {
+      "mean": 0.42283950617283955,
+      "lo": 0.2561728395061728,
+      "hi": 0.6172839506172839,
+      "clusters": 9,
+      "n": 9
+    }
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "vitaldb",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 24,
+    "positive_points": 143,
+    "miss_rate": {
+      "mean": 0.9589285714285715,
+      "lo": 0.8851190476190475,
+      "hi": 1.0,
+      "clusters": 24,
+      "n": 24
+    },
+    "false_positive_rate": {
+      "mean": 0.0018162393162393163,
+      "lo": 0.0,
+      "hi": 0.005128205128205128,
+      "clusters": 78,
+      "n": 78
+    },
+    "precision": {
+      "mean": 0.6388888888888888,
+      "lo": 0.0,
+      "hi": 1.0,
+      "clusters": 3,
+      "n": 3
+    }
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "vitaldb",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 24,
+    "positive_points": 143,
+    "miss_rate": {
+      "mean": 0.6258928571428571,
+      "lo": 0.44516369047619053,
+      "hi": 0.802180059523809,
+      "clusters": 24,
+      "n": 24
+    },
+    "false_positive_rate": {
+      "mean": 0.06460778643441181,
+      "lo": 0.022573876716678577,
+      "hi": 0.11441558505993484,
+      "clusters": 78,
+      "n": 78
+    },
+    "precision": {
+      "mean": 0.47104158467794827,
+      "lo": 0.31519496917224193,
+      "hi": 0.6469942935852027,
+      "clusters": 11,
+      "n": 11
+    }
+  },
+  {
+    "model": "persistence",
+    "domain": "vitaldb",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 24,
+    "positive_points": 143,
+    "miss_rate": {
+      "mean": 0.6875,
+      "lo": 0.5,
+      "hi": 0.875,
+      "clusters": 24,
+      "n": 24
+    },
+    "false_positive_rate": {
+      "mean": 0.07280219780219781,
+      "lo": 0.02564102564102564,
+      "hi": 0.13278388278388278,
+      "clusters": 78,
+      "n": 78
+    },
+    "precision": {
+      "mean": 0.41666666666666674,
+      "lo": 0.25,
+      "hi": 0.6111111111111112,
+      "clusters": 9,
+      "n": 9
+    }
+  },
+  {
+    "model": "boosted_action",
+    "domain": "vitaldb",
+    "variable": "MAP",
+    "event": "low_MAP",
+    "positive_clusters": 24,
+    "positive_points": 143,
+    "miss_rate": {
+      "mean": 0.8085813492063493,
+      "lo": 0.6702529761904762,
+      "hi": 0.9308234126984126,
+      "clusters": 24,
+      "n": 24
+    },
+    "false_positive_rate": {
+      "mean": 0.02669159544159544,
+      "lo": 0.008330662393162392,
+      "hi": 0.04953837250712251,
+      "clusters": 78,
+      "n": 78
+    },
+    "precision": {
+      "mean": 0.4333333333333333,
+      "lo": 0.2111111111111111,
+      "hi": 0.6666666666666666,
+      "clusters": 12,
+      "n": 12
+    }
+  }
+]

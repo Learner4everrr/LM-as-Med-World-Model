@@ -1,0 +1,44 @@
+{
+  "patients": [
+    "adult#001",
+    "adult#002",
+    "adult#003",
+    "adult#004",
+    "adolescent#001",
+    "adolescent#002",
+    "adolescent#003",
+    "child#001",
+    "child#002",
+    "child#003"
+  ],
+  "seeds": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "warmup_min": 120,
+  "horizon_min": 120,
+  "meals": [
+    [
+      30,
+      20
+    ],
+    [
+      150,
+      20
+    ]
+  ],
+  "multipliers": {
+    "A": 0.8,
+    "B": 1.2
+  },
+  "clinical_review": "pending",
+  "purpose": "engineering feasibility; not a sealed test or clinical safety validation"
+}

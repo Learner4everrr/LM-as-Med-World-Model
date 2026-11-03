@@ -1,0 +1,152 @@
+{
+  "development_simglucose": {
+    "subjects": 12,
+    "windows": 175,
+    "variables": [
+      "CGM"
+    ],
+    "minimum": [
+      64.21224906053831
+    ],
+    "maximum": [
+      531.584730812832
+    ],
+    "kind_counts": {
+      "dose": 105,
+      "timing": 70
+    }
+  },
+  "development_anesthesia": {
+    "subjects": 12,
+    "windows": 180,
+    "variables": [
+      "BIS",
+      "MAP"
+    ],
+    "minimum": [
+      30.129517665142032,
+      29.39419939640016
+    ],
+    "maximum": [
+      93.04705569331519,
+      89.97202138160719
+    ],
+    "kind_counts": {
+      "dose": 108,
+      "timing": 72
+    },
+    "age_median_iqr": [
+      57.5,
+      35.25,
+      61.25
+    ],
+    "sex_counts": {
+      "female": 6,
+      "male": 6
+    }
+  },
+  "development_vitaldb": {
+    "subjects": 41,
+    "windows": 66,
+    "variables": [
+      "BIS",
+      "MAP"
+    ],
+    "minimum": [
+      18.0,
+      53.0
+    ],
+    "maximum": [
+      70.0,
+      173.0
+    ],
+    "kind_counts": {
+      "action_change": 38,
+      "factual": 28
+    },
+    "age_median_iqr": [
+      61.0,
+      55.0,
+      69.0
+    ],
+    "sex_counts": {
+      "M": 30,
+      "F": 11
+    }
+  },
+  "test_simglucose": {
+    "subjects": 18,
+    "windows": 270,
+    "variables": [
+      "CGM"
+    ],
+    "minimum": [
+      98.81409781312618
+    ],
+    "maximum": [
+      586.8356988126179
+    ],
+    "kind_counts": {
+      "dose": 162,
+      "timing": 108
+    }
+  },
+  "test_anesthesia": {
+    "subjects": 18,
+    "windows": 270,
+    "variables": [
+      "BIS",
+      "MAP"
+    ],
+    "minimum": [
+      35.49921130418989,
+      31.29914792878249
+    ],
+    "maximum": [
+      87.33614979066044,
+      89.99359464681453
+    ],
+    "kind_counts": {
+      "dose": 162,
+      "timing": 108
+    },
+    "age_median_iqr": [
+      46.0,
+      37.25,
+      63.75
+    ],
+    "sex_counts": {
+      "female": 9,
+      "male": 9
+    }
+  },
+  "test_vitaldb": {
+    "subjects": 79,
+    "windows": 120,
+    "variables": [
+      "BIS",
+      "MAP"
+    ],
+    "minimum": [
+      5.1,
+      32.0
+    ],
+    "maximum": [
+      93.5,
+      191.0
+    ],
+    "kind_counts": {
+      "action_change": 72,
+      "factual": 48
+    },
+    "age_median_iqr": [
+      62.0,
+      55.5,
+      72.0
+    ],
+    "sex_counts": {
+      "M": 48,
+      "F": 31
+    }
+  }
+}

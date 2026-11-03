@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-11-02T16:51:59.360065+00:00",
+  "eligible_subjects": 1758,
+  "included_subjects": 120,
+  "windows": 186,
+  "tracks": [
+    "BIS/BIS",
+    "BIS/SQI",
+    "Solar8000/ART_MBP",
+    "Orchestra/PPF20_RATE",
+    "Orchestra/RFTN20_RATE"
+  ],
+  "sampling": "seeded subject hash; at most one case per actual subject",
+  "no_counterfactual_truth": true,
+  "external_api_inference": false,
+  "future_action_policy": "current recorded pump rate revealed only at each replay step; not known at anchor",
+  "license": "Dataset page CC BY-NC-SA 4.0 + DUA; API metadata CC BY 4.0 differs. Apply stricter dataset conditions; local noncommercial analysis, no raw redistribution.",
+  "limitations": [
+    "selected TIVA subset",
+    "unrecorded interventions and confounding",
+    "legacy CSV relative time origin; no surgical timestamps used",
+    "quality filter conditions on future measurement availability, not deployment performance"
+  ],
+  "files_sha256": {
+    "data/processed/vitaldb_v1/development.inputs.jsonl": "5ca14677d001d078183f9e6cf6a8f242054b4c04da3721a8ffacb4075195e76b",
+    "data/processed/vitaldb_v1/development.oracles.jsonl": "d0fdbb6ff354abb3c3ee107adbb07280c597f73c3ae2f17e7444cfdf2746888f",
+    "data/processed/vitaldb_v1/test.inputs.jsonl": "55167a25bb8d6901db296f5a30173c3464e8273e8fe4db0f4cfa89a154c8980e",
+    "data/processed/vitaldb_v1/test.oracles.jsonl": "dd5694dd355a2404d5fa5c24399b7db93b1bc5624e2ca922a781db9189cf4c71"
+  },
+  "public_export_note": "Subject-level inclusion audit omitted; only aggregate design and source-file hashes are shared."
+}

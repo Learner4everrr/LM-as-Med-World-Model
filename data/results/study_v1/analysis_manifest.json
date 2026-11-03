@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-11-02T18:20:26.622829+00:00",
+  "source_hashes": {
+    "repo/scripts/06_evaluate.py": "517a0c1b9b3c21f316901d2b4b707969ba2a5960fe45d5463a2ddbc7fe4e077a",
+    "repo/src/medwm_eval/metrics.py": "58f68424ba47701ddb3a8850973243cbe5cc7b5d0c9037593572358939d12fc7"
+  },
+  "partial": false,
+  "files": {
+    "data/runs/study_v1/baselines/predictions.jsonl": "ea815136a863a10cff64132800d7b9c13d9accec29968c02450c8092438b6836",
+    "data/runs/study_v1/test/Qwen--Qwen3-8B/predictions.jsonl": "0065dbf8f453dfa5a3b7dc9e4f07e09e29093c45d7e462d64bcca18eb5c9d02b",
+    "data/runs/study_v1/test/Qwen--Qwen2.5-7B-Instruct/predictions.jsonl": "20bb8ae21c2d1d675b0db28cbf451f6794ef0b20126a1c19bbfbbdfc5434334a",
+    "data/runs/study_v1/test/mistralai--Mistral-7B-Instruct-v0.3/predictions.jsonl": "6324a8b47d99d78359c496c744105b3ca6352b5af696fb64f96da5af4f08f3a0",
+    "data/runs/study_v1/test/microsoft--Phi-3.5-mini-instruct/predictions.jsonl": "52d917a348e5825aad1676cc3316587e29c7051f0aee296e0d622c7e560bc8d2"
+  },
+  "cases": 660,
+  "run_rows": 14520,
+  "summary_rows": 18266
+}

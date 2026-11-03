@@ -1,0 +1,6 @@
+{
+  "simulated_results_identical": true,
+  "naive_controls_identical": true,
+  "changed_vitaldb_supervised_trajectories": 720,
+  "total_trajectories": 6600
+}

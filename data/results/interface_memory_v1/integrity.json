@@ -1,0 +1,122 @@
+{
+  "timestamp_utc": "2026-11-02T20:39:17.984474+00:00",
+  "extension": "interface_memory_v1",
+  "post_primary": true,
+  "original_primary_and_summary_unchanged": true,
+  "freeze_sha256": "198f4d2c66c0e71c7804f64d7c3661e57901a432489d6850ab25a59a2569fba6",
+  "models": [
+    {
+      "model": "Qwen/Qwen3-8B",
+      "cases": 660,
+      "retrieval_tasks": 1320,
+      "counts": {
+        "attempted": 7108,
+        "valid": 6944,
+        "interval_valid": 6942,
+        "complete": 496
+      },
+      "scheduled": 7920,
+      "unique_raw_calls": 7996,
+      "input_tokens": 6804629,
+      "generated_token_slots_upper_bound": 468367,
+      "generation_seconds": 2180.736316680908,
+      "prompt_reconstruction_exact": true,
+      "raw_parse_exact": true,
+      "retrieval_targets_match_displayed_history": true,
+      "no_future_oracle_in_rollouts": true,
+      "paid_calls": 0,
+      "files": {
+        "launch.log": "b74abf01b4033727f9b591a5378ca057bd7b06d3b743f42681282c7a964d1d5c",
+        "manifest.json": "1b99f103de6240728f87d570c5550534b360b130b746e62d8ed4a84238711c53",
+        "memory.json": "6c006827257873f0c30a8c61505c3f5ec29eac9190557da6d3addf4015ba9778",
+        "predictions.jsonl": "46db8d5d19bb92ac25d3fb10fb853e51ca88efd726a69647b5587adedef7e3b7",
+        "raw.jsonl": "ee0ea1374e6315e00b440aed3d1e55199d1e79ec7fbad7426327cfc07db197c6"
+      }
+    },
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "cases": 660,
+      "retrieval_tasks": 1320,
+      "counts": {
+        "attempted": 6647,
+        "valid": 6475,
+        "interval_valid": 6464,
+        "complete": 488
+      },
+      "scheduled": 7920,
+      "unique_raw_calls": 7535,
+      "input_tokens": 6494764,
+      "generated_token_slots_upper_bound": 446289,
+      "generation_seconds": 1576.0426712036133,
+      "prompt_reconstruction_exact": true,
+      "raw_parse_exact": true,
+      "retrieval_targets_match_displayed_history": true,
+      "no_future_oracle_in_rollouts": true,
+      "paid_calls": 0,
+      "files": {
+        "launch.log": "38757bced3deefb592bdba8d47a118266e2717bf1bcdf4f32d246f5f3f68c7bf",
+        "manifest.json": "c472984039d3a1fc4f8ce5b287c9ecfbe14ff7c91f4094a48c08a72f068d29fd",
+        "memory.json": "50f65d24e297001f6b1119e1e7ae67a2113ca5df7397904c6071c78bd13c7813",
+        "predictions.jsonl": "ffa508418c8465ab3a87f44b44399773c7964ef06bfa0590a1d755becdbfd7c1",
+        "raw.jsonl": "cc3f22e09c901119c4c322821db9f6fc59cce68f967418f04f63dccddd6ceb94"
+      }
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "cases": 660,
+      "retrieval_tasks": 1320,
+      "counts": {
+        "attempted": 7840,
+        "valid": 7828,
+        "interval_valid": 7825,
+        "complete": 648
+      },
+      "scheduled": 7920,
+      "unique_raw_calls": 8728,
+      "input_tokens": 8295324,
+      "generated_token_slots_upper_bound": 535024,
+      "generation_seconds": 2367.0747163295746,
+      "prompt_reconstruction_exact": true,
+      "raw_parse_exact": true,
+      "retrieval_targets_match_displayed_history": true,
+      "no_future_oracle_in_rollouts": true,
+      "paid_calls": 0,
+      "files": {
+        "launch.log": "7d31604acf7bd4027e22fcff007cdd75e7a55d8a7908fb199b0ed4197311032b",
+        "manifest.json": "e1c94e464bc0ce3832523881ecdc2250c5ad76a975a349df67500dfa227fd504",
+        "memory.json": "7ee08ea4312147303f1beea2a2fb493579b7db67de52837e8be492ac46d9335a",
+        "predictions.jsonl": "f2b511a21055f07ccaf0388583ad64020ab1234c2e4ef18fac8d21a82dc448c7",
+        "raw.jsonl": "ff8b16efd9fefa1a4aeb10116518073a86781e030082389edc4158c6ce6dd80b"
+      }
+    },
+    {
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "cases": 660,
+      "retrieval_tasks": 1320,
+      "counts": {
+        "attempted": 1030,
+        "valid": 370,
+        "interval_valid": 367,
+        "complete": 0
+      },
+      "scheduled": 7920,
+      "unique_raw_calls": 1918,
+      "input_tokens": 1686631,
+      "generated_token_slots_upper_bound": 209833,
+      "generation_seconds": 640.1349952220917,
+      "prompt_reconstruction_exact": true,
+      "raw_parse_exact": true,
+      "retrieval_targets_match_displayed_history": true,
+      "no_future_oracle_in_rollouts": true,
+      "paid_calls": 0,
+      "files": {
+        "launch.log": "058f57cc8c62190dbc60e5483444e8aaf05c0e704af27f728886bd46b394a046",
+        "manifest.json": "bd3938f7979a2c225df6c9d4204cb804ec3d147792cf231f3fe6b22b68341905",
+        "memory.json": "5082096646da54f8b4a4347d01eb544ac14ca4d4e9c1792f10956eeaf9c99715",
+        "predictions.jsonl": "003e532a16a367b0c7e73acf6aa07753e5a929b0ca4b82f3cccbbf2494fceded",
+        "raw.jsonl": "c3ce081f469f0ce3ca3dac821ef40ce2f83985ebc8ed082546429bca057faec2"
+      }
+    }
+  ],
+  "verifier_sha256": "39afe8b3cd878ea0ba62c54e9fda41191455f80174cde25a11c1b6d8d0182524"
+}

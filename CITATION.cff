@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software repository when using these evaluation materials."
+type: software
+title: "Language models as medical world models: evaluation materials"
+authors:
+  - family-names: Zhan
+    given-names: Zaifu
+  - family-names: Zeng
+    given-names: Min
+  - family-names: Yu
+    given-names: Kai
+  - family-names: Chen
+    given-names: Xiaoyi
+  - family-names: Zhang
+    given-names: Rui
+repository-code: "https://github.com/Learner4everrr/LM-as-Med-World-Model"
+license: MIT

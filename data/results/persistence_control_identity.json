@@ -1,0 +1,67 @@
+{
+  "exact_prediction_identity_verified": true,
+  "groups": 108,
+  "identity": "Self-fed persistence predicts zero paired effect; teacher-forced persistence predicts the previous reference paired effect.",
+  "results": [
+    {
+      "domain": "simglucose",
+      "variable": "CGM",
+      "mode": "free",
+      "mean": 29.080611770567902,
+      "lo": 21.197459914070073,
+      "hi": 37.78920512508474,
+      "clusters": 18,
+      "n": 54
+    },
+    {
+      "domain": "simglucose",
+      "variable": "CGM",
+      "mode": "teacher",
+      "mean": 5.902226562673087,
+      "lo": 4.274633722939064,
+      "hi": 7.675677634459597,
+      "clusters": 18,
+      "n": 54
+    },
+    {
+      "domain": "anesthesia",
+      "variable": "BIS",
+      "mode": "free",
+      "mean": 8.259972642908776,
+      "lo": 7.250802064214114,
+      "hi": 9.656318078766057,
+      "clusters": 18,
+      "n": 54
+    },
+    {
+      "domain": "anesthesia",
+      "variable": "BIS",
+      "mode": "teacher",
+      "mean": 0.8357921606773587,
+      "lo": 0.7372113904959858,
+      "hi": 0.9739886820364448,
+      "clusters": 18,
+      "n": 54
+    },
+    {
+      "domain": "anesthesia",
+      "variable": "MAP",
+      "mode": "free",
+      "mean": 10.011701309048123,
+      "lo": 7.46309759162443,
+      "hi": 12.679409864727711,
+      "clusters": 18,
+      "n": 54
+    },
+    {
+      "domain": "anesthesia",
+      "variable": "MAP",
+      "mode": "teacher",
+      "mean": 1.2534666818326314,
+      "lo": 0.9644350830231543,
+      "hi": 1.5366770665879295,
+      "clusters": 18,
+      "n": 54
+    }
+  ]
+}

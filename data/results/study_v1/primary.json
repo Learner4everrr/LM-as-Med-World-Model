@@ -1,0 +1,62 @@
+[
+  {
+    "type": "paired",
+    "model": "Qwen/Qwen3-8B",
+    "domain": "simglucose",
+    "condition": "state_action",
+    "mode": "free",
+    "variable": "CGM",
+    "kind": "dose",
+    "metric": "effect_mae",
+    "mean": 45.144183027249134,
+    "lo": 34.59257905718102,
+    "hi": 56.73922312575308,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "type": "paired",
+    "model": "Qwen/Qwen3-8B",
+    "domain": "simglucose",
+    "condition": "state_action",
+    "mode": "free",
+    "variable": "CGM",
+    "kind": "dose",
+    "metric": "complete",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "type": "paired",
+    "model": "Qwen/Qwen3-8B",
+    "domain": "simglucose",
+    "condition": "state_action",
+    "mode": "free",
+    "variable": "CGM",
+    "kind": "dose",
+    "metric": "zero_effect_mae",
+    "mean": 29.080611770567902,
+    "lo": 21.197459914070073,
+    "hi": 37.78920512508474,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "type": "paired",
+    "model": "Qwen/Qwen3-8B",
+    "domain": "simglucose",
+    "condition": "state_action",
+    "mode": "free",
+    "variable": "CGM",
+    "kind": "dose",
+    "metric": "delta_vs_persistence",
+    "mean": 16.06357125668124,
+    "lo": 10.372859784532215,
+    "hi": 22.385516139694356,
+    "clusters": 18,
+    "n": 54
+  }
+]

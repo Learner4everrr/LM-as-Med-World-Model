@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medwm-eval"
+version = "0.1.0"
+description = "Functional evaluation of general-purpose LLMs as medical world models"
+requires-python = ">=3.12"
+dependencies = ["simglucose==0.2.11", "setuptools==80.9.0"]
+
+[project.optional-dependencies]
+test = ["pytest==9.2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

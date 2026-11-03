@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-11-02T19:58:53.404861+00:00",
+  "post_primary_extension": true,
+  "annotation_required": false,
+  "original_results_already_observed": true,
+  "primary_unchanged": true,
+  "original_primary_sha256": "c4ca57ff92189faf04bcee2690051f1330c00be9032658c1abf7fc42421d9a7b",
+  "original_summary_sha256": "dc325d61e3cf2faf34b4266833bbd4b8733b6a20a141334ba44aec0403a91dc0",
+  "original_integrity_sha256": "e478fcd4825050648e1bbca6ec7cdd1f557c02c075420bab8095e201347c78f0",
+  "original_freeze_sha256": "2364658e2897d880928a3a9fb90fdd96bf4ff28d4be500dffdd38770fcc75611",
+  "frozen_hashes": {
+    "repo/docs/interface_memory_extension.md": "7bb006ae68fe5771056d81ed63a08d8da4ce7727837c750ce539cf9a2b674f22",
+    "repo/src/medwm_eval/submission_extension.py": "657af3af05c0b2f6977209b2406d5bb0335298c3f7473e588dc18eebd0b86b2b",
+    "repo/scripts/29_run_extension.py": "84dc011f9acf97e9925c2641b69ada9b5ec53c54bcecd9c91abf263c7c0f441e",
+    "repo/scripts/32_launch_extension.py": "c81e849cacac31a564fefa7117c44701d34f7424421b1d33c574ab39a4276b02",
+    "repo/scripts/33_freeze_extension.py": "786fcab16eb339c9d60c11c93fd881d2e7f22419c7cf26f14fb8b1554d872f82",
+    "repo/tests/test_submission_extension.py": "90aaeb6b4cc349434fa3c86653a691e93e34badb6bc6be2d6c6c5aa493f55e2c",
+    "repo/scripts/05_run_local.py": "883a454333559640bdae6f8c7051215337dc2e946523889dabefbc7ac41fb1f8",
+    "repo/src/medwm_eval/prompts.py": "2e1e2d17fa43a2dbc4079a643893864063ea60b7b3807f206ebd473bed315b0e",
+    "repo/configs/models_frozen.json": "d8cb61493bca5712c0eefb4e7e471476e04b1f7f62b266f29418a564b6c263f2",
+    "repo/requirements-inference.lock": "e4efbb16b4375a1599701658d716400a851dd434fa4fca22b6f50e2f69f33e1e",
+    "data/simulated/benchmark_v1/test.inputs.jsonl": "c9c5829d40725cc641c2b6e3a4cd809ecc5f9bcc5aba4f7c5541f41c62a24393",
+    "data/simulated/benchmark_v1/test.oracles.jsonl": "c73fee4b83b7fddd70ed68aae5d7301da0f9d424c1808d299beddaa5282cfc2b",
+    "data/processed/vitaldb_v1/test.inputs.jsonl": "55167a25bb8d6901db296f5a30173c3464e8273e8fe4db0f4cfa89a154c8980e",
+    "data/processed/vitaldb_v1/test.oracles.jsonl": "dd5694dd355a2404d5fa5c24399b7db93b1bc5624e2ca922a781db9189cf4c71"
+  }
+}

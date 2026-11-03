@@ -1,0 +1,362 @@
+[
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "simglucose",
+    "metric": "prefix_decodable",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "simglucose",
+    "metric": "state_content",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "simglucose",
+    "metric": "knowledge_content",
+    "mean": 0.9814814814814814,
+    "lo": 0.9444444444444444,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "anesthesia",
+    "metric": "prefix_decodable",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "anesthesia",
+    "metric": "state_content",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "anesthesia",
+    "metric": "knowledge_content",
+    "mean": 0.8703703703703703,
+    "lo": 0.7777777777777777,
+    "hi": 0.9444444444444444,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "vitaldb",
+    "metric": "prefix_decodable",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "vitaldb",
+    "metric": "state_content",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "domain": "vitaldb",
+    "metric": "knowledge_content",
+    "mean": 0.5063291139240507,
+    "lo": 0.41139240506329117,
+    "hi": 0.6012658227848101,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "simglucose",
+    "metric": "prefix_decodable",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "simglucose",
+    "metric": "state_content",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "simglucose",
+    "metric": "knowledge_content",
+    "mean": 0.9629629629629629,
+    "lo": 0.9074074074074073,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "anesthesia",
+    "metric": "prefix_decodable",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "anesthesia",
+    "metric": "state_content",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "anesthesia",
+    "metric": "knowledge_content",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "vitaldb",
+    "metric": "prefix_decodable",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "vitaldb",
+    "metric": "state_content",
+    "mean": 0.9493670886075949,
+    "lo": 0.8987341772151899,
+    "hi": 0.9873417721518988,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "vitaldb",
+    "metric": "knowledge_content",
+    "mean": 0.9177215189873418,
+    "lo": 0.8606012658227848,
+    "hi": 0.9683544303797469,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "simglucose",
+    "metric": "prefix_decodable",
+    "mean": 0.16666666666666666,
+    "lo": 0.09259259259259259,
+    "hi": 0.24074074074074073,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "simglucose",
+    "metric": "state_content",
+    "mean": 0.16666666666666666,
+    "lo": 0.09259259259259259,
+    "hi": 0.24074074074074073,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "simglucose",
+    "metric": "knowledge_content",
+    "mean": 0.14814814814814814,
+    "lo": 0.07407407407407407,
+    "hi": 0.2222222222222222,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "anesthesia",
+    "metric": "prefix_decodable",
+    "mean": 0.611111111111111,
+    "lo": 0.5185185185185185,
+    "hi": 0.7222222222222221,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "anesthesia",
+    "metric": "state_content",
+    "mean": 0.018518518518518517,
+    "lo": 0.0,
+    "hi": 0.05555555555555555,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "anesthesia",
+    "metric": "knowledge_content",
+    "mean": 0.018518518518518517,
+    "lo": 0.0,
+    "hi": 0.05555555555555555,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "vitaldb",
+    "metric": "prefix_decodable",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "vitaldb",
+    "metric": "state_content",
+    "mean": 0.08227848101265822,
+    "lo": 0.04430379746835443,
+    "hi": 0.13291139240506328,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "domain": "vitaldb",
+    "metric": "knowledge_content",
+    "mean": 0.02531645569620253,
+    "lo": 0.006329113924050633,
+    "hi": 0.05063291139240506,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "simglucose",
+    "metric": "prefix_decodable",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "simglucose",
+    "metric": "state_content",
+    "mean": 0.018518518518518517,
+    "lo": 0.0,
+    "hi": 0.05555555555555555,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "simglucose",
+    "metric": "knowledge_content",
+    "mean": 0.7407407407407407,
+    "lo": 0.6111111111111112,
+    "hi": 0.8518518518518517,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "anesthesia",
+    "metric": "prefix_decodable",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "anesthesia",
+    "metric": "state_content",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "anesthesia",
+    "metric": "knowledge_content",
+    "mean": 0.6296296296296295,
+    "lo": 0.537037037037037,
+    "hi": 0.7407407407407407,
+    "clusters": 18,
+    "n": 54
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "vitaldb",
+    "metric": "prefix_decodable",
+    "mean": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "vitaldb",
+    "metric": "state_content",
+    "mean": 0.22151898734177214,
+    "lo": 0.14556962025316456,
+    "hi": 0.3037974683544304,
+    "clusters": 79,
+    "n": 120
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "domain": "vitaldb",
+    "metric": "knowledge_content",
+    "mean": 0.08227848101265822,
+    "lo": 0.0379746835443038,
+    "hi": 0.13291139240506328,
+    "clusters": 79,
+    "n": 120
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-11-02T18:02:25.522084+00:00",
+  "posthoc": true,
+  "reason": "Separate leading-object answer content from full-response JSON compliance; preserve all frozen transition scores",
+  "source_hashes": {
+    "repo/scripts/27_auxiliary_content.py": "c1593543a3c8eab2396aae6b4c94af8eddafce63a724f19f6fc8da9b860abd24",
+    "repo/docs/auxiliary_content_audit.md": "8f06d39da3f1e86f7f9874343c29e3ce8e5284bf8eab580c72df914f84ac3056"
+  }
+}

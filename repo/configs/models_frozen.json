@@ -1,0 +1,18 @@
+{
+  "Qwen/Qwen2.5-7B-Instruct": {
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "license": "apache-2.0"
+  },
+  "Qwen/Qwen3-8B": {
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "license": "apache-2.0"
+  },
+  "microsoft/Phi-3.5-mini-instruct": {
+    "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+    "license": "mit"
+  },
+  "mistralai/Mistral-7B-Instruct-v0.3": {
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "license": "apache-2.0"
+  }
+}

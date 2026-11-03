@@ -1,0 +1,133 @@
+{
+  "verifier_source_sha256": "becfbffc9463e2f09e8292caaf96bb4c1ee478fc68e8bbd472f2d7cd515d8aed",
+  "study_freeze_sha256": "2364658e2897d880928a3a9fb90fdd96bf4ff28d4be500dffdd38770fcc75611",
+  "baseline_predictions_sha256": "efadf2efd2806f9577455885a9c7fb9bf378ab53576a7f0c5013366ae5a46d96",
+  "baseline_trajectories": 360,
+  "timestamp_utc": "2026-11-02T18:23:45.449692+00:00",
+  "models": [
+    {
+      "model": "Qwen/Qwen3-8B",
+      "trajectories": 108,
+      "counts": {
+        "attempted": 1296,
+        "valid": 1296,
+        "scalar_normalized": 968,
+        "interval_valid": 1296,
+        "scheduled": 1296
+      },
+      "by_domain": {
+        "('simglucose', 'valid')": 1296
+      },
+      "state_only_branch_invariance": true,
+      "first_step_feedback_equivalence": true,
+      "prompt_reconstruction_exact": true,
+      "raw_response_parse_exact": true,
+      "freeze_hashes_match": true,
+      "unique_raw_calls": 1044,
+      "input_tokens": 675444,
+      "generated_token_slots_upper_bound": 39408,
+      "generation_seconds": 201.8399202823639,
+      "paid_calls": 0,
+      "final_files": {
+        "launch.log": "a0894a24a800ac1f71b3bc9d08c7d601eaf7fa8d245a3ce0a9f990328c19a059",
+        "manifest.json": "9300eb5a7387ac03b9b1e3dafd078b7c66e4d553eccd40dc71bee6ceae187b01",
+        "predictions.jsonl": "3894f8a124683e4339ec2c7fed9e38d764e6f8438572ed22f2232bdcc67e7d43",
+        "raw.jsonl": "c277c9ef7f6f0e1602066bb436a60f51661e4609e432db9638319104035018f6"
+      }
+    },
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "trajectories": 108,
+      "counts": {
+        "attempted": 1288,
+        "valid": 1281,
+        "scalar_normalized": 0,
+        "interval_valid": 1275,
+        "scheduled": 1296
+      },
+      "by_domain": {
+        "('simglucose', 'valid')": 1281,
+        "('simglucose', 'invalid')": 7
+      },
+      "state_only_branch_invariance": true,
+      "first_step_feedback_equivalence": true,
+      "prompt_reconstruction_exact": true,
+      "raw_response_parse_exact": true,
+      "freeze_hashes_match": true,
+      "unique_raw_calls": 1036,
+      "input_tokens": 682032,
+      "generated_token_slots_upper_bound": 36750,
+      "generation_seconds": 147.25226497650146,
+      "paid_calls": 0,
+      "final_files": {
+        "launch.log": "8f31f1c2a86cdd91332a34c1fb5ebd3ae245ebecf105b0a17e786527e70204ed",
+        "manifest.json": "b31aaf0e89c21e3d56c18d44ea8c845fd95f3bce728197d9dfdef0b29e56c22c",
+        "predictions.jsonl": "2e61b124004b8372a1def9eb64ad2d192854808293de7f1f8b9bf853912c6c2b",
+        "raw.jsonl": "5eefa177d208027d6955efc65093cf4f3333e71c343ae5e6b3139a3dcea74e06"
+      }
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "trajectories": 108,
+      "counts": {
+        "attempted": 1285,
+        "valid": 1278,
+        "scalar_normalized": 0,
+        "interval_valid": 1266,
+        "scheduled": 1296
+      },
+      "by_domain": {
+        "('simglucose', 'valid')": 1278,
+        "('simglucose', 'invalid')": 7
+      },
+      "state_only_branch_invariance": true,
+      "first_step_feedback_equivalence": true,
+      "prompt_reconstruction_exact": true,
+      "raw_response_parse_exact": true,
+      "freeze_hashes_match": true,
+      "unique_raw_calls": 1033,
+      "input_tokens": 722997,
+      "generated_token_slots_upper_bound": 45762,
+      "generation_seconds": 200.73762369155884,
+      "paid_calls": 0,
+      "final_files": {
+        "launch.log": "c882d7ad605b16670b1da1bcfe3b5b011a8a387a45e7e374fa5c629acef483f1",
+        "manifest.json": "2f411d44976efc1af47314bcb2cc5475f2c95b4dabdf1d92ff252dab6d35abef",
+        "predictions.jsonl": "65bfe28a0142fd1ce16a765b2f02b98d9558bc8df8da5d297ff537b49b5f85a5",
+        "raw.jsonl": "d90e424c4e94f3daf211ee729306146aff233a9288d44e6e0708b9ac343c7ff8"
+      }
+    },
+    {
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "trajectories": 108,
+      "counts": {
+        "attempted": 1296,
+        "valid": 1296,
+        "scalar_normalized": 0,
+        "interval_valid": 1296,
+        "scheduled": 1296
+      },
+      "by_domain": {
+        "('simglucose', 'valid')": 1296
+      },
+      "state_only_branch_invariance": true,
+      "first_step_feedback_equivalence": true,
+      "prompt_reconstruction_exact": true,
+      "raw_response_parse_exact": true,
+      "freeze_hashes_match": true,
+      "unique_raw_calls": 1044,
+      "input_tokens": 727397,
+      "generated_token_slots_upper_bound": 37320,
+      "generation_seconds": 138.02567052841187,
+      "paid_calls": 0,
+      "final_files": {
+        "launch.log": "c489fbe793f17a9744af20a903b51a40395b77c947e0ca3fec5a993222a93a55",
+        "manifest.json": "6f6fbd3d4e01e1c1a1f0bd5314de519b20d65b92d686623cc4ba54354e3df3a9",
+        "predictions.jsonl": "a925eba64e2f0fc9f074b751c9529cd0d9cdbec682405bc03337bdcbd492c996",
+        "raw.jsonl": "37b35905eb3f7b94c3c2fbaa8e297b26f3bba3a571078fca07d4c7fb86ebae95"
+      }
+    }
+  ],
+  "log_hash_note": "Run manifests hash the launch log before the final completion line; this final seal hashes the completed log.",
+  "no_future_oracle_in_free_prompts_verified": true
+}

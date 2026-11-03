@@ -1,0 +1,155 @@
+{
+  "verifier_source_sha256": "becfbffc9463e2f09e8292caaf96bb4c1ee478fc68e8bbd472f2d7cd515d8aed",
+  "study_freeze_sha256": "2364658e2897d880928a3a9fb90fdd96bf4ff28d4be500dffdd38770fcc75611",
+  "baseline_predictions_sha256": "ea815136a863a10cff64132800d7b9c13d9accec29968c02450c8092438b6836",
+  "baseline_trajectories": 6600,
+  "timestamp_utc": "2026-11-02T18:20:01.375762+00:00",
+  "models": [
+    {
+      "model": "Qwen/Qwen3-8B",
+      "trajectories": 1980,
+      "counts": {
+        "attempted": 23713,
+        "valid": 23694,
+        "scalar_normalized": 5766,
+        "interval_valid": 23632,
+        "scheduled": 23760
+      },
+      "by_domain": {
+        "('simglucose', 'valid')": 9719,
+        "('anesthesia', 'valid')": 9655,
+        "('anesthesia', 'invalid')": 18,
+        "('vitaldb', 'valid')": 4320,
+        "('simglucose', 'invalid')": 1
+      },
+      "state_only_branch_invariance": true,
+      "first_step_feedback_equivalence": true,
+      "prompt_reconstruction_exact": true,
+      "raw_response_parse_exact": true,
+      "freeze_hashes_match": true,
+      "unique_raw_calls": 18592,
+      "input_tokens": 15582286,
+      "generated_token_slots_upper_bound": 962957,
+      "generation_seconds": 4652.031805038452,
+      "paid_calls": 0,
+      "final_files": {
+        "auxiliary.json": "dbf627c5e85e31bd42b1f4d669010975848d2a7973d5df05ecae03d0ae19c710",
+        "diagnostics.json": "6ed1ffe54ffce918d643cf8c6c0678d62ad5d578c60b6eb91c2e2ead75419b44",
+        "launch.log": "1269fd29117029ad5789d21a6bad584ea1fb9ec67b87b9aff1922f3d7097ccb7",
+        "manifest.json": "6c521c3c5388e2e795b0b7b1350070b3006b780e0a5f172ade462d545f0ff637",
+        "predictions.jsonl": "0065dbf8f453dfa5a3b7dc9e4f07e09e29093c45d7e462d64bcca18eb5c9d02b",
+        "raw.jsonl": "f0d1bb55fa6acc0aaf3aff849a5d4f3588209e3ae326fa4d4bded6e51527aad8"
+      }
+    },
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "trajectories": 1980,
+      "counts": {
+        "attempted": 23459,
+        "valid": 23367,
+        "scalar_normalized": 0,
+        "interval_valid": 23156,
+        "scheduled": 23760
+      },
+      "by_domain": {
+        "('simglucose', 'valid')": 9665,
+        "('simglucose', 'invalid')": 32,
+        "('anesthesia', 'valid')": 9382,
+        "('anesthesia', 'invalid')": 60,
+        "('vitaldb', 'valid')": 4320
+      },
+      "state_only_branch_invariance": true,
+      "first_step_feedback_equivalence": true,
+      "prompt_reconstruction_exact": true,
+      "raw_response_parse_exact": true,
+      "freeze_hashes_match": true,
+      "unique_raw_calls": 18462,
+      "input_tokens": 15791158,
+      "generated_token_slots_upper_bound": 880384,
+      "generation_seconds": 3347.8345634937286,
+      "paid_calls": 0,
+      "final_files": {
+        "auxiliary.json": "858826a0bbd224c163ff2aeac003ebc0a6e242520307aa916711865728dc58df",
+        "diagnostics.json": "96217f60daee64751dbbd05d589f3c548e89c2930e0ef713c2aee85fa7ab1abb",
+        "launch.log": "46b8ecff413ea83959c920c3c1b92614fe9886e2539508f4655fe20965a5a45f",
+        "manifest.json": "ac6d4774d043dc12dc5ff6d7bac5d9c29300a8635639b301835f78cea0d512a2",
+        "predictions.jsonl": "20bb8ae21c2d1d675b0db28cbf451f6794ef0b20126a1c19bbfbbdfc5434334a",
+        "raw.jsonl": "9a4579b8556cd5dbe4de441a9d6290b789a7a4a8f7ddf6cfe5d56ba7aff410e1"
+      }
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "trajectories": 1980,
+      "counts": {
+        "attempted": 19925,
+        "valid": 16698,
+        "scalar_normalized": 0,
+        "interval_valid": 16588,
+        "scheduled": 23760
+      },
+      "by_domain": {
+        "('simglucose', 'valid')": 9457,
+        "('simglucose', 'invalid')": 48,
+        "('anesthesia', 'valid')": 5415,
+        "('anesthesia', 'invalid')": 1904,
+        "('vitaldb', 'valid')": 1826,
+        "('vitaldb', 'invalid')": 1275
+      },
+      "state_only_branch_invariance": true,
+      "first_step_feedback_equivalence": true,
+      "prompt_reconstruction_exact": true,
+      "raw_response_parse_exact": true,
+      "freeze_hashes_match": true,
+      "unique_raw_calls": 14805,
+      "input_tokens": 12670924,
+      "generated_token_slots_upper_bound": 749739,
+      "generation_seconds": 3285.784017801285,
+      "paid_calls": 0,
+      "final_files": {
+        "auxiliary.json": "8553f3aef0ed07965d5f5a64d54fcfa943f684156c86c0a232bc10aa3a08f83e",
+        "diagnostics.json": "d9be75e272305b5ebf710923abdf5d09c5af69276cc1e3b014dd135be4439ce0",
+        "launch.log": "9c2b5d2d2f0dc59a6a762e007e8dc5d831517055a39f296d6c7d7e093ca2e952",
+        "manifest.json": "c31775a0cc1ecc8936d0fd026a24864c2ba663eedfd9d9d2a3b2de6431e14049",
+        "predictions.jsonl": "6324a8b47d99d78359c496c744105b3ca6352b5af696fb64f96da5af4f08f3a0",
+        "raw.jsonl": "d1d95c0b6c8805a8cd9c197e715ff6d4c4d145d0139d46aded24ec37726c25cc"
+      }
+    },
+    {
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "trajectories": 1980,
+      "counts": {
+        "attempted": 23650,
+        "valid": 23601,
+        "scalar_normalized": 0,
+        "interval_valid": 23487,
+        "scheduled": 23760
+      },
+      "by_domain": {
+        "('simglucose', 'valid')": 9720,
+        "('anesthesia', 'valid')": 9561,
+        "('anesthesia', 'invalid')": 49,
+        "('vitaldb', 'valid')": 4320
+      },
+      "state_only_branch_invariance": true,
+      "first_step_feedback_equivalence": true,
+      "prompt_reconstruction_exact": true,
+      "raw_response_parse_exact": true,
+      "freeze_hashes_match": true,
+      "unique_raw_calls": 18530,
+      "input_tokens": 16588729,
+      "generated_token_slots_upper_bound": 922052,
+      "generation_seconds": 3296.0819499492645,
+      "paid_calls": 0,
+      "final_files": {
+        "auxiliary.json": "ef2d43b35c5a78a401cca8db00c0d83d95ff4d0ea54f6ab1d7bc7ff3db7066e8",
+        "diagnostics.json": "b373b6a2bb08eb548858eabf44eb4a2cfa93a974c6c05c357ff5975b971f81c5",
+        "launch.log": "6b4d9526ea765f74c2829bf5331f5aefeb94f8f659b81409bbec9de477b009a6",
+        "manifest.json": "fc30f4c3556414a68c9ffba25699222f173e35a76106d9abbf64459618e1d5ee",
+        "predictions.jsonl": "52d917a348e5825aad1676cc3316587e29c7051f0aee296e0d622c7e560bc8d2",
+        "raw.jsonl": "776de3023814e0e19b937848e9dc7ed2ddc0b95b87d1ffb9ce69b426bf80e1f6"
+      }
+    }
+  ],
+  "log_hash_note": "Run manifests hash the launch log before the final completion line; this final seal hashes the completed log.",
+  "no_future_oracle_in_free_prompts_verified": true
+}

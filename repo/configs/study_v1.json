@@ -1,0 +1,85 @@
+{
+  "version": "study_v1",
+  "purpose": "internally frozen computational exploratory evaluation; AI-assisted review authorized; no independent clinician review",
+  "primary_model": "Qwen/Qwen3-8B",
+  "primary_domain": "simglucose",
+  "primary_pair": "dose:A-B",
+  "primary_mode": "free",
+  "primary_endpoint": "paired_effect_mae_all_12_steps",
+  "replication_domains": [
+    "anesthesia"
+  ],
+  "step_counts": 12,
+  "glucose_step_min": 30,
+  "anesthesia_step_min": 2,
+  "glucose_patients_per_group": 10,
+  "glucose_development_indices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "anesthesia_profiles": 30,
+  "anesthesia_development_count": 12,
+  "scenario_indices": [
+    0,
+    1,
+    2
+  ],
+  "dose_multipliers": {
+    "A": 0.75,
+    "R": 1,
+    "B": 1.25
+  },
+  "timing_boost": 1.25,
+  "timing_duration_steps": 3,
+  "timing_delay_steps": 3,
+  "primary_contrast": "Qwen3-8B STATE_ACTION free paired-effect error versus zero-effect persistence",
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261102,
+  "direction_resolution": {
+    "simglucose": 1,
+    "anesthesia": 1
+  },
+  "event_thresholds": {
+    "glucose_low": 70,
+    "glucose_high": 180,
+    "BIS_low": 40,
+    "BIS_high": 60,
+    "MAP_low": 65
+  },
+  "threshold_status": "descriptive conventional cutoffs; not clinically endorsed adequacy thresholds",
+  "conditions": [
+    "state_action",
+    "state_only"
+  ],
+  "modes": [
+    "free",
+    "teacher"
+  ],
+  "state_only_modes": [
+    "free"
+  ],
+  "output_schema": {
+    "values": "list of point predictions",
+    "lower": "list of 95% prediction interval lower limits",
+    "upper": "list of 95% prediction interval upper limits"
+  },
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 160,
+    "temperature": null,
+    "retries": 0,
+    "qwen3_enable_thinking": false
+  },
+  "paid_api_calls": 0,
+  "prompt_version": "transition_v3",
+  "clinical_review": "AI-assisted only, explicitly authorized by researcher",
+  "model_ids": [
+    "Qwen/Qwen3-8B",
+    "Qwen/Qwen2.5-7B-Instruct",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "microsoft/Phi-3.5-mini-instruct"
+  ],
+  "batch_size": 16
+}

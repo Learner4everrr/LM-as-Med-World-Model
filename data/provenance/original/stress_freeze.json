@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-11-02T17:16:45.554609+00:00",
+  "reason": "Original held-out endpoints contained no low-glucose events; targeted secondary extension",
+  "model_outputs_examined_for_design": false,
+  "primary_benchmark_unchanged": true,
+  "frozen_hashes": {
+    "repo/docs/stress_extension.md": "47af7ac9f28a31db4cf135e2527867d23dddfee3919a87eca91f0b1e888f12b3",
+    "repo/scripts/14_stress_data.py": "5a7c97040c4689187d03f60c4fc9feb2cf85011e457ee66239cf91675154d574",
+    "repo/scripts/15_run_stress.py": "07fdfcaa7a0a21badf3b948ed72d3012b645558526746798af0d67c596f01f37",
+    "repo/scripts/16_stress_baselines.py": "7319c74faa1d6f541474a40ee18fa138e07a5ed3e8263813ec9ff12f191a4808",
+    "data/simulated/hypoglycemia_stress_v1/test.inputs.jsonl": "c65673a2df60a99b15e07193d7e7fdbaa3a40d2cd3eecbe65c45deb2042df465",
+    "data/simulated/hypoglycemia_stress_v1/test.oracles.jsonl": "93484a9de9391fe8f1b5b568b7765ed88a23754b1dfc13371d11f09a4531163b"
+  }
+}

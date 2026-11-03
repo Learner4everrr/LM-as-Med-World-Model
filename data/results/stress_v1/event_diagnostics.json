@@ -1,0 +1,218 @@
+[
+  {
+    "model": "Qwen/Qwen3-8B",
+    "miss_rate": {
+      "mean": 0.8333333333333334,
+      "lo": 0.5,
+      "hi": 1.0,
+      "clusters": 6,
+      "n": 6
+    },
+    "false_positive_rate": {
+      "mean": 0.03429951690821256,
+      "lo": 0.0,
+      "hi": 0.09082125603864734,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.08333333333333333,
+      "lo": 0.0,
+      "hi": 0.16666666666666666,
+      "clusters": 2,
+      "n": 2
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "miss_rate": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "clusters": 6,
+      "n": 6
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": null,
+      "lo": null,
+      "hi": null,
+      "clusters": 0,
+      "n": 0
+    }
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "miss_rate": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "clusters": 6,
+      "n": 6
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": null,
+      "lo": null,
+      "hi": null,
+      "clusters": 0,
+      "n": 0
+    }
+  },
+  {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "miss_rate": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "clusters": 6,
+      "n": 6
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": null,
+      "lo": null,
+      "hi": null,
+      "clusters": 0,
+      "n": 0
+    }
+  },
+  {
+    "model": "persistence",
+    "miss_rate": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "clusters": 6,
+      "n": 6
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": null,
+      "lo": null,
+      "hi": null,
+      "clusters": 0,
+      "n": 0
+    }
+  },
+  {
+    "model": "trend",
+    "miss_rate": {
+      "mean": 0.07516339869281047,
+      "lo": 0.0,
+      "hi": 0.18627450980392157,
+      "clusters": 6,
+      "n": 6
+    },
+    "false_positive_rate": {
+      "mean": 0.7589640365002684,
+      "lo": 0.6616978663446055,
+      "hi": 0.8481619028448738,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.12400392817059484,
+      "lo": 0.03117283950617284,
+      "hi": 0.23886679292929283,
+      "clusters": 18,
+      "n": 18
+    }
+  },
+  {
+    "model": "ridge_history",
+    "miss_rate": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "clusters": 6,
+      "n": 6
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": null,
+      "lo": null,
+      "hi": null,
+      "clusters": 0,
+      "n": 0
+    }
+  },
+  {
+    "model": "ridge_action",
+    "miss_rate": {
+      "mean": 0.6862745098039215,
+      "lo": 0.35294117647058826,
+      "hi": 1.0,
+      "clusters": 6,
+      "n": 6
+    },
+    "false_positive_rate": {
+      "mean": 0.1,
+      "lo": 0.0,
+      "hi": 0.24444444444444446,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.6590909090909091,
+      "lo": 0.6363636363636364,
+      "hi": 0.6818181818181818,
+      "clusters": 2,
+      "n": 2
+    }
+  },
+  {
+    "model": "boosted_action",
+    "miss_rate": {
+      "mean": 0.6217553688141924,
+      "lo": 0.3949579831932774,
+      "hi": 0.8492063492063493,
+      "clusters": 6,
+      "n": 6
+    },
+    "false_positive_rate": {
+      "mean": 0.21892462638076673,
+      "lo": 0.10724394899285249,
+      "hi": 0.34620329759584134,
+      "clusters": 18,
+      "n": 18
+    },
+    "precision": {
+      "mean": 0.15851370851370852,
+      "lo": 0.02727272727272727,
+      "hi": 0.30844155844155846,
+      "clusters": 11,
+      "n": 11
+    }
+  }
+]

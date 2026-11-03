@@ -1,0 +1,83 @@
+{
+  "timestamp_utc": "2026-11-02T17:04:04.182615+00:00",
+  "cases": 1081,
+  "groups": 358,
+  "unique_ids": true,
+  "patient_split_disjoint": true,
+  "finite_targets": true,
+  "identical_visible_and_hidden_anchors": true,
+  "exact_replay_checks_all_true": true,
+  "matched_exogenous_meals": true,
+  "pas_independent_pair_check": {
+    "identical_anchor": true,
+    "replay_exact": true,
+    "order_independent": true,
+    "source_unchanged": true,
+    "action_effect": true,
+    "endpoint_A_minus_B": [
+      9.287700755432084,
+      45.16324132954976
+    ]
+  },
+  "display_quantization_development_check": [
+    {
+      "id": "0376b7e008e6dec54bf4aea1_A",
+      "domain": "simglucose",
+      "max_abs_difference": [
+        0.0
+      ]
+    },
+    {
+      "id": "0376b7e008e6dec54bf4aea1_R",
+      "domain": "simglucose",
+      "max_abs_difference": [
+        0.0
+      ]
+    },
+    {
+      "id": "0376b7e008e6dec54bf4aea1_B",
+      "domain": "simglucose",
+      "max_abs_difference": [
+        0.0
+      ]
+    },
+    {
+      "id": "9908823f1d261bf624c2da28_A",
+      "domain": "anesthesia",
+      "max_abs_difference": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "9908823f1d261bf624c2da28_R",
+      "domain": "anesthesia",
+      "max_abs_difference": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "9908823f1d261bf624c2da28_B",
+      "domain": "anesthesia",
+      "max_abs_difference": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "counts": {
+    "development": {
+      "simglucose": 175,
+      "anesthesia": 180,
+      "vitaldb": 66
+    },
+    "test": {
+      "simglucose": 270,
+      "anesthesia": 270,
+      "vitaldb": 120
+    }
+  },
+  "source_sha256": "459cd75d1880c2337774cfb4c0009004952f339e27a7ad505dbd375db18eb2e2",
+  "limitation": "Quantization sensitivity checked on one development dose group per simulator; not a full-domain bound."
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp_utc": "2026-11-02T17:15:23.390645+00:00",
+  "planned_patients": 18,
+  "included_patients": 18,
+  "branches": 36,
+  "low_points": 52,
+  "audit": [
+    {
+      "patient": "adult#005",
+      "status": "included",
+      "anchor_min": 210,
+      "low_points": 0
+    },
+    {
+      "patient": "adult#006",
+      "status": "included",
+      "anchor_min": 180,
+      "low_points": 14
+    },
+    {
+      "patient": "adult#007",
+      "status": "included",
+      "anchor_min": 180,
+      "low_points": 17
+    },
+    {
+      "patient": "adult#008",
+      "status": "included",
+      "anchor_min": 210,
+      "low_points": 0
+    },
+    {
+      "patient": "adult#009",
+      "status": "included",
+      "anchor_min": 210,
+      "low_points": 0
+    },
+    {
+      "patient": "adult#010",
+      "status": "included",
+      "anchor_min": 240,
+      "low_points": 0
+    },
+    {
+      "patient": "adolescent#005",
+      "status": "included",
+      "anchor_min": 180,
+      "low_points": 0
+    },
+    {
+      "patient": "adolescent#006",
+      "status": "included",
+      "anchor_min": 210,
+      "low_points": 0
+    },
+    {
+      "patient": "adolescent#007",
+      "status": "included",
+      "anchor_min": 210,
+      "low_points": 0
+    },
+    {
+      "patient": "adolescent#008",
+      "status": "included",
+      "anchor_min": 240,
+      "low_points": 0
+    },
+    {
+      "patient": "adolescent#009",
+      "status": "included",
+      "anchor_min": 210,
+      "low_points": 0
+    },
+    {
+      "patient": "adolescent#010",
+      "status": "included",
+      "anchor_min": 180,
+      "low_points": 9
+    },
+    {
+      "patient": "child#005",
+      "status": "included",
+      "anchor_min": 180,
+      "low_points": 5
+    },
+    {
+      "patient": "child#006",
+      "status": "included",
+      "anchor_min": 180,
+      "low_points": 1
+    },
+    {
+      "patient": "child#007",
+      "status": "included",
+      "anchor_min": 180,
+      "low_points": 0
+    },
+    {
+      "patient": "child#008",
+      "status": "included",
+      "anchor_min": 180,
+      "low_points": 0
+    },
+    {
+      "patient": "child#009",
+      "status": "included",
+      "anchor_min": 180,
+      "low_points": 6
+    },
+    {
+      "patient": "child#010",
+      "status": "included",
+      "anchor_min": 180,
+      "low_points": 0
+    }
+  ],
+  "status": "targeted post-primary-freeze stress analysis, not primary-confirmatory",
+  "file_hashes": {
+    "data/simulated/hypoglycemia_stress_v1/test.inputs.jsonl": "c65673a2df60a99b15e07193d7e7fdbaa3a40d2cd3eecbe65c45deb2042df465",
+    "data/simulated/hypoglycemia_stress_v1/test.oracles.jsonl": "93484a9de9391fe8f1b5b568b7765ed88a23754b1dfc13371d11f09a4531163b"
+  }
+}

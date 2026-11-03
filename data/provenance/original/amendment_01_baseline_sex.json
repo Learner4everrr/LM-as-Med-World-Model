@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-11-02T17:11:55.000156+00:00",
+  "kind": "software correction to secondary numerical baselines",
+  "reason": "VitalDB sex values M/F were not recognized by original male/female feature encoding; discovered through code and metadata review, not endpoint tuning",
+  "change": "canonicalize categorical spelling only; original frozen source retained; no hyperparameter changes",
+  "primary_llm_or_persistence_affected": false,
+  "original_results": "data/runs/study_v1/baselines_original",
+  "corrected_results": "data/runs/study_v1/baselines",
+  "source_hashes": {
+    "repo/src/medwm_eval/baselines_revised.py": "cfe992081744dcc628272214df52b319b4617fe02d472d29d2381c0ff2f816b9",
+    "repo/scripts/04_baselines.py": "7f38b144ba4d7c22fcf6485b43fe8b632c604718dab79d053af8fa314e53aa80"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "timestamp_utc": "2026-11-02T17:01:05.628437+00:00",
+  "registration": "internal timestamped specification, not public preregistration",
+  "clinical_review": "AI-assisted only; researcher authorized",
+  "heldout_llm_runs_started": false,
+  "baseline_pipeline_smoke_complete": true,
+  "pilot_decisions": "format-only, v1/v2/v3 artifacts retained; singleton scalar canonicalization fixed before test",
+  "frozen_hashes": {
+    "repo/configs/study_v1.json": "e1eae4fa16e79c6972e8222121756c02fe5ee5a76d1f65c569a93357eb76c5ea",
+    "repo/docs/protocol.md": "69edac1b85871081a0faaae79d3f418ce6d448d1fb9f1a5e72d20d4bc9ca1b0b",
+    "repo/docs/ai_review.md": "6f6ab3aa35af169b2b1b71641b2a1d3a203eb242a734383afcf5df813882a00a",
+    "repo/scripts/05_run_local.py": "883a454333559640bdae6f8c7051215337dc2e946523889dabefbc7ac41fb1f8",
+    "repo/src/medwm_eval/prompts.py": "2e1e2d17fa43a2dbc4079a643893864063ea60b7b3807f206ebd473bed315b0e",
+    "repo/src/medwm_eval/diagnostics.py": "9b508f2e4ef775dc23cfe32c24ccac405e3f940048c9db4bbdbed6d5ab8d1d30",
+    "repo/src/medwm_eval/baselines.py": "54003c5040daa43eafa2faa0f7d1fac721d55addfedb3563b8256d41a110777e",
+    "repo/requirements-analysis.lock": "f371ad6ba992dd4b5dfb18a6a7094a53619402b00f02bca46a1bba843fcfdd6a",
+    "repo/requirements-inference.lock": "e4efbb16b4375a1599701658d716400a851dd434fa4fca22b6f50e2f69f33e1e",
+    "data/simulated/benchmark_v1/development.inputs.jsonl": "1bc350f07bced6ad5aa178d6a80b87c6e09c244bc9166d62db0555d1e1d976ea",
+    "data/simulated/benchmark_v1/development.oracles.jsonl": "2cbd9165a648c047d3c05b9dbbfa5c396a0858bf547b59c67da1b9c712916851",
+    "data/simulated/benchmark_v1/test.inputs.jsonl": "c9c5829d40725cc641c2b6e3a4cd809ecc5f9bcc5aba4f7c5541f41c62a24393",
+    "data/simulated/benchmark_v1/test.oracles.jsonl": "c73fee4b83b7fddd70ed68aae5d7301da0f9d424c1808d299beddaa5282cfc2b",
+    "data/processed/vitaldb_v1/development.inputs.jsonl": "5ca14677d001d078183f9e6cf6a8f242054b4c04da3721a8ffacb4075195e76b",
+    "data/processed/vitaldb_v1/development.oracles.jsonl": "d0fdbb6ff354abb3c3ee107adbb07280c597f73c3ae2f17e7444cfdf2746888f",
+    "data/processed/vitaldb_v1/test.inputs.jsonl": "55167a25bb8d6901db296f5a30173c3464e8273e8fe4db0f4cfa89a154c8980e",
+    "data/processed/vitaldb_v1/test.oracles.jsonl": "dd5694dd355a2404d5fa5c24399b7db93b1bc5624e2ca922a781db9189cf4c71"
+  },
+  "verification": {
+    "contracts": {
+      "command": [
+        "/projects/standard/zhan1386/zhan8023/32_world_model_evaluation/env/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "/projects/standard/zhan1386/zhan8023/32_world_model_evaluation/repo/tests",
+        "--junitxml=/projects/standard/zhan1386/zhan8023/32_world_model_evaluation/data/results/verification/pytest.xml"
+      ],
+      "returncode": 0
+    },
+    "dependencies": {
+      "command": [
+        "/projects/standard/zhan1386/zhan8023/32_world_model_evaluation/env/.venv/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "returncode": 0
+    },
+    "timestamp_utc": "2026-11-02T17:00:49.622572+00:00",
+    "source_sha256": {
+      "repo/scripts/01_env_audit.py": "8cb383093b9f128d8d01ec23cf4e78cd58f6446da99af706f70fbbb7f544f1fa",
+      "repo/scripts/02_generate_benchmark.py": "05661cc925d6c548b55a519eb970b9107478e723fede8fc1fce9d6009f6c1a90",
+      "repo/scripts/04_baselines.py": "d0485c9adc8cfc03ff0521c0a759a2bce4214aa3a4e4d7b9d2ee88ba8f6c0b40",
+      "repo/scripts/05_run_local.py": "883a454333559640bdae6f8c7051215337dc2e946523889dabefbc7ac41fb1f8",
+      "repo/scripts/06_evaluate.py": "8990ffc5145145a8b3c6d3906d98348784ad78a0ad3c3756662b744ec5eb0178",
+      "repo/scripts/08_vitaldb.py": "3032e7803bff8409215e29b61f05f87161842086caa0823cc73f1907698c4ec7",
+      "repo/scripts/download_models.py": "f47f95769cace9b1dcc3f0f781fbbab93c60681a73ecd714f1d872139fdbe7dc",
+      "repo/scripts/verify.py": "0cabc3026ce8368b9e71952bddb935a7dd19639a405b1dd032e3a58272cd0e8d",
+      "repo/tests/test_baselines_diagnostics.py": "ca1f204e481f14481ea2626d50607910ead94169bc0c44a4f09a5977c76f16e7",
+      "repo/tests/test_contracts.py": "db68c3345ba74817ae203557867b30816b6ec83cecf6f0fa10e533ab5b058f6f",
+      "repo/tests/test_prompts_metrics.py": "238d47c03e8b1c999db1ad79901694b1554cbbdd785c388b2881e7436d489247",
+      "repo/tests/test_study.py": "1e0dce02fa8d95b50b88948d4486236295abf5154b70ddb7039c21eeb5caba14",
+      "repo/src/medwm_eval/__init__.py": "a25ce8c21451a6daef7ac317f75cb58722b8808f63000479d5c7bd2eeabede5c",
+      "repo/src/medwm_eval/baselines.py": "54003c5040daa43eafa2faa0f7d1fac721d55addfedb3563b8256d41a110777e",
+      "repo/src/medwm_eval/diagnostics.py": "9b508f2e4ef775dc23cfe32c24ccac405e3f940048c9db4bbdbed6d5ab8d1d30",
+      "repo/src/medwm_eval/metrics.py": "58f68424ba47701ddb3a8850973243cbe5cc7b5d0c9037593572358939d12fc7",
+      "repo/src/medwm_eval/prompts.py": "2e1e2d17fa43a2dbc4079a643893864063ea60b7b3807f206ebd473bed315b0e",
+      "repo/src/medwm_eval/rollout.py": "022cab2108a644049e36aebcea426cd09bd2f33f73b874f9c994cb8a9319e8ca",
+      "repo/src/medwm_eval/envs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repo/src/medwm_eval/envs/anesthesia.py": "0d1a275f323045cefd8bc3e28a0042fe057fcbf5ec300c7672949e805a7b8069",
+      "repo/src/medwm_eval/envs/simglucose_adapter.py": "10ea365da4c864eeca00bf1b3a90629f76fdd72ca923722121008d3a5f9f6fd1"
+    }
+  }
+}
