@@ -1,0 +1,335 @@
+{
+  "timestamp_utc": "2026-11-04T02:29:42.032530+00:00",
+  "analysis_status": "post_hoc_revision",
+  "scope": "Two simulated domains only; original and named interfaces",
+  "no_prediction_repair": true,
+  "no_regenerated_continuations": true,
+  "per_response_truncation_not_identifiable_from_padded_token_slots": true,
+  "summaries": [
+    {
+      "study": "study_v1",
+      "model": "Qwen/Qwen3-8B",
+      "domain": "simglucose",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3240,
+        "strict_valid_points": 3240,
+        "first_object_valid_points": 3240,
+        "valid_points_invalid_interval": 0,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 0,
+        "first_failures_with_readable_point": 0,
+        "strict_complete_trajectories": 270
+      },
+      "first_failure_categories": {}
+    },
+    {
+      "study": "study_v1",
+      "model": "Qwen/Qwen3-8B",
+      "domain": "anesthesia",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3193,
+        "strict_valid_points": 3188,
+        "first_object_valid_points": 3188,
+        "valid_points_invalid_interval": 8,
+        "valid_points_out_of_elementary_bounds": 21,
+        "first_failures": 5,
+        "first_failures_with_readable_point": 0,
+        "strict_complete_trajectories": 265
+      },
+      "first_failure_categories": {
+        "invalid_json_or_nonobject": 5
+      }
+    },
+    {
+      "study": "study_v1",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "domain": "simglucose",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3217,
+        "strict_valid_points": 3214,
+        "first_object_valid_points": 3216,
+        "valid_points_invalid_interval": 0,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 3,
+        "first_failures_with_readable_point": 2,
+        "strict_complete_trajectories": 267
+      },
+      "first_failure_categories": {
+        "multiple_objects_or_extra_text": 2,
+        "invalid_json_or_nonobject": 1
+      }
+    },
+    {
+      "study": "study_v1",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "domain": "anesthesia",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3117,
+        "strict_valid_points": 3100,
+        "first_object_valid_points": 3111,
+        "valid_points_invalid_interval": 76,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 17,
+        "first_failures_with_readable_point": 11,
+        "strict_complete_trajectories": 253
+      },
+      "first_failure_categories": {
+        "multiple_objects_or_extra_text": 11,
+        "invalid_json_or_nonobject": 6
+      }
+    },
+    {
+      "study": "study_v1",
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "domain": "simglucose",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3025,
+        "strict_valid_points": 3000,
+        "first_object_valid_points": 3000,
+        "valid_points_invalid_interval": 16,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 25,
+        "first_failures_with_readable_point": 0,
+        "strict_complete_trajectories": 245
+      },
+      "first_failure_categories": {
+        "invalid_json_or_nonobject": 25
+      }
+    },
+    {
+      "study": "study_v1",
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "domain": "anesthesia",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 839,
+        "strict_valid_points": 587,
+        "first_object_valid_points": 839,
+        "valid_points_invalid_interval": 8,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 252,
+        "first_failures_with_readable_point": 252,
+        "strict_complete_trajectories": 18
+      },
+      "first_failure_categories": {
+        "multiple_objects_or_extra_text": 252
+      }
+    },
+    {
+      "study": "study_v1",
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "domain": "simglucose",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3240,
+        "strict_valid_points": 3240,
+        "first_object_valid_points": 3240,
+        "valid_points_invalid_interval": 0,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 0,
+        "first_failures_with_readable_point": 0,
+        "strict_complete_trajectories": 270
+      },
+      "first_failure_categories": {}
+    },
+    {
+      "study": "study_v1",
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "domain": "anesthesia",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3130,
+        "strict_valid_points": 3120,
+        "first_object_valid_points": 3120,
+        "valid_points_invalid_interval": 27,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 10,
+        "first_failures_with_readable_point": 0,
+        "strict_complete_trajectories": 260
+      },
+      "first_failure_categories": {
+        "array_length_or_type": 10
+      }
+    },
+    {
+      "study": "interface_memory_v1",
+      "model": "Qwen/Qwen3-8B",
+      "domain": "simglucose",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3240,
+        "strict_valid_points": 3240,
+        "first_object_valid_points": 3240,
+        "valid_points_invalid_interval": 0,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 0,
+        "first_failures_with_readable_point": 0,
+        "strict_complete_trajectories": 270
+      },
+      "first_failure_categories": {}
+    },
+    {
+      "study": "interface_memory_v1",
+      "model": "Qwen/Qwen3-8B",
+      "domain": "anesthesia",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 2428,
+        "strict_valid_points": 2264,
+        "first_object_valid_points": 2264,
+        "valid_points_invalid_interval": 2,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 164,
+        "first_failures_with_readable_point": 0,
+        "strict_complete_trajectories": 106
+      },
+      "first_failure_categories": {
+        "quoted_or_nonnumeric_string": 164
+      }
+    },
+    {
+      "study": "interface_memory_v1",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "domain": "simglucose",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3104,
+        "strict_valid_points": 3079,
+        "first_object_valid_points": 3104,
+        "valid_points_invalid_interval": 0,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 25,
+        "first_failures_with_readable_point": 25,
+        "strict_complete_trajectories": 245
+      },
+      "first_failure_categories": {
+        "multiple_objects_or_extra_text": 25
+      }
+    },
+    {
+      "study": "interface_memory_v1",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "domain": "anesthesia",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 2103,
+        "strict_valid_points": 1956,
+        "first_object_valid_points": 2093,
+        "valid_points_invalid_interval": 10,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 147,
+        "first_failures_with_readable_point": 137,
+        "strict_complete_trajectories": 123
+      },
+      "first_failure_categories": {
+        "multiple_objects_or_extra_text": 138,
+        "invalid_json_or_nonobject": 5,
+        "missing_field": 4
+      }
+    },
+    {
+      "study": "interface_memory_v1",
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "domain": "simglucose",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3230,
+        "strict_valid_points": 3228,
+        "first_object_valid_points": 3230,
+        "valid_points_invalid_interval": 0,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 2,
+        "first_failures_with_readable_point": 2,
+        "strict_complete_trajectories": 268
+      },
+      "first_failure_categories": {
+        "multiple_objects_or_extra_text": 2
+      }
+    },
+    {
+      "study": "interface_memory_v1",
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "domain": "anesthesia",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 3170,
+        "strict_valid_points": 3160,
+        "first_object_valid_points": 3169,
+        "valid_points_invalid_interval": 3,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 10,
+        "first_failures_with_readable_point": 9,
+        "strict_complete_trajectories": 260
+      },
+      "first_failure_categories": {
+        "multiple_objects_or_extra_text": 9,
+        "missing_field": 1
+      }
+    },
+    {
+      "study": "interface_memory_v1",
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "domain": "simglucose",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 270,
+        "strict_valid_points": 0,
+        "first_object_valid_points": 0,
+        "valid_points_invalid_interval": 0,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 270,
+        "first_failures_with_readable_point": 0,
+        "strict_complete_trajectories": 0
+      },
+      "first_failure_categories": {
+        "quoted_or_nonnumeric_string": 148,
+        "multiple_objects_or_extra_text": 122
+      }
+    },
+    {
+      "study": "interface_memory_v1",
+      "model": "microsoft/Phi-3.5-mini-instruct",
+      "domain": "anesthesia",
+      "scheduled_trajectories": 270,
+      "counts": {
+        "issued_positions": 363,
+        "strict_valid_points": 93,
+        "first_object_valid_points": 107,
+        "valid_points_invalid_interval": 0,
+        "valid_points_out_of_elementary_bounds": 0,
+        "first_failures": 270,
+        "first_failures_with_readable_point": 14,
+        "strict_complete_trajectories": 0
+      },
+      "first_failure_categories": {
+        "quoted_or_nonnumeric_string": 165,
+        "multiple_objects_or_extra_text": 74,
+        "invalid_json_or_nonobject": 31
+      }
+    }
+  ],
+  "source_hashes": {
+    "data/runs/study_v1/test/Qwen--Qwen3-8B/predictions.jsonl": "0065dbf8f453dfa5a3b7dc9e4f07e09e29093c45d7e462d64bcca18eb5c9d02b",
+    "data/runs/study_v1/test/Qwen--Qwen3-8B/raw.jsonl": "f0d1bb55fa6acc0aaf3aff849a5d4f3588209e3ae326fa4d4bded6e51527aad8",
+    "data/runs/study_v1/test/Qwen--Qwen2.5-7B-Instruct/predictions.jsonl": "20bb8ae21c2d1d675b0db28cbf451f6794ef0b20126a1c19bbfbbdfc5434334a",
+    "data/runs/study_v1/test/Qwen--Qwen2.5-7B-Instruct/raw.jsonl": "9a4579b8556cd5dbe4de441a9d6290b789a7a4a8f7ddf6cfe5d56ba7aff410e1",
+    "data/runs/study_v1/test/mistralai--Mistral-7B-Instruct-v0.3/predictions.jsonl": "6324a8b47d99d78359c496c744105b3ca6352b5af696fb64f96da5af4f08f3a0",
+    "data/runs/study_v1/test/mistralai--Mistral-7B-Instruct-v0.3/raw.jsonl": "d1d95c0b6c8805a8cd9c197e715ff6d4c4d145d0139d46aded24ec37726c25cc",
+    "data/runs/study_v1/test/microsoft--Phi-3.5-mini-instruct/predictions.jsonl": "52d917a348e5825aad1676cc3316587e29c7051f0aee296e0d622c7e560bc8d2",
+    "data/runs/study_v1/test/microsoft--Phi-3.5-mini-instruct/raw.jsonl": "776de3023814e0e19b937848e9dc7ed2ddc0b95b87d1ffb9ce69b426bf80e1f6",
+    "data/runs/interface_memory_v1/test/Qwen--Qwen3-8B/predictions.jsonl": "46db8d5d19bb92ac25d3fb10fb853e51ca88efd726a69647b5587adedef7e3b7",
+    "data/runs/interface_memory_v1/test/Qwen--Qwen3-8B/raw.jsonl": "ee0ea1374e6315e00b440aed3d1e55199d1e79ec7fbad7426327cfc07db197c6",
+    "data/runs/interface_memory_v1/test/Qwen--Qwen2.5-7B-Instruct/predictions.jsonl": "ffa508418c8465ab3a87f44b44399773c7964ef06bfa0590a1d755becdbfd7c1",
+    "data/runs/interface_memory_v1/test/Qwen--Qwen2.5-7B-Instruct/raw.jsonl": "cc3f22e09c901119c4c322821db9f6fc59cce68f967418f04f63dccddd6ceb94",
+    "data/runs/interface_memory_v1/test/mistralai--Mistral-7B-Instruct-v0.3/predictions.jsonl": "f2b511a21055f07ccaf0388583ad64020ab1234c2e4ef18fac8d21a82dc448c7",
+    "data/runs/interface_memory_v1/test/mistralai--Mistral-7B-Instruct-v0.3/raw.jsonl": "ff8b16efd9fefa1a4aeb10116518073a86781e030082389edc4158c6ce6dd80b",
+    "data/runs/interface_memory_v1/test/microsoft--Phi-3.5-mini-instruct/predictions.jsonl": "003e532a16a367b0c7e73acf6aa07753e5a929b0ca4b82f3cccbbf2494fceded",
+    "data/runs/interface_memory_v1/test/microsoft--Phi-3.5-mini-instruct/raw.jsonl": "c3ce081f469f0ce3ca3dac821ef40ce2f83985ebc8ed082546429bca057faec2"
+  },
+  "script_sha256": "315f3ef7193a4c0af30338f87d03a63b9cb8d3a0e00bba449043d1714d63dd50"
+}

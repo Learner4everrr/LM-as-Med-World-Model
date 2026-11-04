@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-11-04T02:36:01.778763+00:00",
+  "analysis_status": "post_hoc_revision",
+  "source_hashes": {
+    "data/runs/study_v1/test/Qwen--Qwen3-8B/predictions.jsonl": "0065dbf8f453dfa5a3b7dc9e4f07e09e29093c45d7e462d64bcca18eb5c9d02b",
+    "data/runs/study_v1/test/Qwen--Qwen2.5-7B-Instruct/predictions.jsonl": "20bb8ae21c2d1d675b0db28cbf451f6794ef0b20126a1c19bbfbbdfc5434334a",
+    "data/runs/study_v1/test/mistralai--Mistral-7B-Instruct-v0.3/predictions.jsonl": "6324a8b47d99d78359c496c744105b3ca6352b5af696fb64f96da5af4f08f3a0",
+    "data/runs/study_v1/test/microsoft--Phi-3.5-mini-instruct/predictions.jsonl": "52d917a348e5825aad1676cc3316587e29c7051f0aee296e0d622c7e560bc8d2",
+    "data/runs/study_v1/baselines/predictions.jsonl": "ea815136a863a10cff64132800d7b9c13d9accec29968c02450c8092438b6836",
+    "data/simulated/benchmark_v1/test.inputs.jsonl": "c9c5829d40725cc641c2b6e3a4cd809ecc5f9bcc5aba4f7c5541f41c62a24393",
+    "data/simulated/benchmark_v1/test.oracles.jsonl": "c73fee4b83b7fddd70ed68aae5d7301da0f9d424c1808d299beddaa5282cfc2b",
+    "data/results/study_v1/summary.json": "dc325d61e3cf2faf34b4266833bbd4b8733b6a20a141334ba44aec0403a91dc0",
+    "repo/docs/revision_analysis.md": "f88fffc40e472d6d55e363a48f49f14be04685f916718465c2333b3d7e0028c3"
+  },
+  "script_sha256": "fd1f8ed74ecd04ecae14fe5486ee22c2ebd45a244858a3e117ed957ec9f8391d",
+  "original_statistics_reproduced": 81
+}

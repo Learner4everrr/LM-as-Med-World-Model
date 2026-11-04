@@ -96,3 +96,16 @@ This check reads the ZIP directly, verifies hashes and synthetic-only scope, and
 Original freeze records and model checksums are archived under `data/provenance/original/`. Their hashes describe the original run, including clinical files retained locally; they are not active freezes for a new checkout. Do not copy them into `data/manifests/`. Fresh generation/inference produces its own manifests and overwrites generated aggregate files, so perform a new full run in a separate checkout. The archived synthetic outputs are not a complete clinical-inference run and should not be passed to scripts expecting all 660 cases.
 
 Original code is supplied under the MIT license. Third-party assets and data retain their terms; see LICENSE_NOTICE.md. No clinical treatment recommendations or patient benefit are established.
+
+## Post hoc manuscript revision analyses
+
+The original frozen outcomes remain intact. Revision analyses use existing simulator outputs and are explicitly post hoc: fixed reference-effect magnitude bins, all twelve horizons, and a first-object parseability audit without repaired continuations. Definitions and denominators are in docs/revision_analysis.md.
+
+Run in a separate reproduction checkout to preserve the archived aggregate artifacts:
+
+~~~bash
+env/.venv/bin/python repo/scripts/43_revision_sensitivity.py --no-figures
+env/.venv/bin/python repo/scripts/44_revision_parseability.py
+~~~
+
+Both scripts accept the published simulator-only ZIP when original run folders are absent. The first recomputes 81 original complete-pair statistics before producing new strata; the second verifies frozen point/interval decisions. Remove --no-figures after setting up the documented Times New Roman fonts to regenerate the new figures. Results are written under data/results/revision_v1/; no model inference is performed.

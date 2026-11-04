@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-11-04T02:37:48.326692+00:00",
+  "published_zip_reconstruction": true,
+  "magnitude_and_horizon_summaries_identical": true,
+  "parseability_summaries_identical": true,
+  "synthetic_point_rows_byte_identical": true,
+  "original_statistics_reproduced": 81,
+  "scientific_tests_passed": 30
+}
