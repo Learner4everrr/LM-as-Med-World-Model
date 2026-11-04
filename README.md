@@ -32,8 +32,10 @@ env/.venv/bin/python repo/scripts/41_verify_public_results.py
 
 No raw VitalDB recordings, patient-level clinical inputs/outputs, model weights or fonts are included. Clinical replay can be reconstructed using the acquisition scripts under VitalDB's terms. The published synthetic-output archive is intentionally not a complete clinical run. Perform new inference in a separate checkout to preserve the original aggregates.
 
-Authors: Zaifu Zhan, Min Zeng, Kai Yu, Xiaoyi Chen and Rui Zhang. Correspondence: Rui Zhang (ruizhang@umn.edu). Original evaluation code is MIT licensed; third-party assets retain their own terms.
+Authors: Zaifu Zhan, Min Zeng, Kai Yu, Xiaoyi Chen, Mengyuan Cui and Rui Zhang. Correspondence: Rui Zhang (ruizhang@umn.edu). Original evaluation code is MIT licensed; third-party assets retain their own terms.
 
 ## Manuscript revision analyses
 
 Post hoc analyses of the original saved outputs assess reference-effect magnitude, all twelve rollout horizons, and first-object point readability. They do not replace original outcomes or regenerate missing continuations. See [analysis definitions](repo/docs/revision_analysis.md), [revision results](data/results/revision_v1/) and the reproduction commands in [repo/README.md](repo/README.md).
+
+Author contributions: Zaifu Zhan and Rui Zhang conceived the study. Zaifu Zhan led the study and prepared the datasets. Zaifu Zhan, Min Zeng, Kai Yu, Xiaoyi Chen and Mengyuan Cui performed experimental validation. Rui Zhang supervised the research.

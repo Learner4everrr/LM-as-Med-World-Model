@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-04T02:37:48.419021+00:00",
+  "timestamp_utc": "2026-11-04T02:41:59.963386+00:00",
   "scope": "Public reproducibility release: code, synthetic artifacts and aggregate results",
   "original_results_unchanged": true,
   "exclusions": [
@@ -10,9 +10,9 @@
   ],
   "files": {
     ".gitignore": "716f6af7e104a3828b332065f7896deca66acc89032f0e1c2f26576e39463f91",
-    "CITATION.cff": "625a1bf79f74198a164be1cff1de856a419a1230d6b96d533a40faea371c782c",
+    "CITATION.cff": "5a9e2a45792e0c6ec7b8399c3d4e2c2d5a9f9d2b6540d26ddf93d18ba897b070",
     "LICENSE": "24a3f64a4ab5af4a4525047b475d13655001e3d6376496efdba001b423d81b21",
-    "README.md": "a4efba6ebe399221d2ecee64b83597f257e15ba5e8598dde00824579097d091c",
+    "README.md": "602d90f5c158fb2e32da062b8d8fde0d349e215bce927107ac9aaf0529234af4",
     "data/provenance/original/Qwen--Qwen2.5-7B-Instruct.json": "9360f2fea808461a0afbc5490464300c4636b4c9f2dd481ad5d720c51fb92b3b",
     "data/provenance/original/Qwen--Qwen3-8B.json": "9d445326e9539d4739c2c9572d375fd9f5a34862aaadd6cde5c7bdc45d785152",
     "data/provenance/original/README.md": "9153a217f031be599bcc0789c71645c0404d2990f07f01ba5e1a20117b688f16",

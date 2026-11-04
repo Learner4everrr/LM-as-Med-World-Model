@@ -11,6 +11,8 @@ authors:
     given-names: Kai
   - family-names: Chen
     given-names: Xiaoyi
+  - family-names: Cui
+    given-names: Mengyuan
   - family-names: Zhang
     given-names: Rui
 repository-code: "https://github.com/Learner4everrr/LM-as-Med-World-Model"
