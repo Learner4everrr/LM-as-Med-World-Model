@@ -1,6 +1,6 @@
 # Study limitations
 
-The study evaluates four frozen, relatively small open-weight models from three developers, with Qwen3 thinking disabled. It does not assess all current models or dedicated trained clinical world models.
+The study evaluates Qwen3-8B, Qwen2.5-7B, Mistral-7B and Phi-3.5-mini, with Qwen3 thinking disabled. It does not assess all current models or dedicated trained clinical world models.
 
 The two simulator implementations supply reproducible in-simulator action references, not validated individual clinical treatment effects. Glucose has 30 fixed library identities; PAS uses synthetic demographic profiles and scenario-specific random PK/PD parameters, without observation noise or operative disturbances. Partial visible histories need not identify latent dynamics.
 

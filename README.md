@@ -1,8 +1,8 @@
 # Language models as medical world models
 
-Reproducibility materials for **Action fidelity in compact language models used as medical world models**.
+Reproducibility materials for **Action fidelity in language models used as medical world models**.
 
-This study tests whether frozen compact general-purpose language models can simulate physiological responses to specified treatments. It uses resettable glucose and anesthesia simulators, paired alternative actions and twelve-step self-fed rollouts, with a separate factual VitalDB evaluation. It does not evaluate treatment selection or establish clinical benefit.
+This study tests whether general-purpose language models can simulate physiological responses to specified treatments. It uses resettable glucose and anesthesia simulators, paired alternative actions and twelve-step self-fed rollouts, with a separate factual VitalDB evaluation. It does not evaluate treatment selection or establish clinical benefit.
 
 ## Main result
 
