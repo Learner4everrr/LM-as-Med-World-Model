@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-04T02:41:59.963386+00:00",
+  "timestamp_utc": "2026-11-06T17:58:47.809382+00:00",
   "scope": "Public reproducibility release: code, synthetic artifacts and aggregate results",
   "original_results_unchanged": true,
   "exclusions": [
@@ -76,7 +76,7 @@
     "paper/tables/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "repo/LICENSE": "24a3f64a4ab5af4a4525047b475d13655001e3d6376496efdba001b423d81b21",
     "repo/LICENSE_NOTICE.md": "0ed5d661fea3d368391692d28d5a44fb8bb49ee798f1a6b3f6b18ea3528edfbd",
-    "repo/README.md": "5eceafa6d1850cce6c10788842ddec8999a5193dbc43ef03c4043ac67eec31fd",
+    "repo/README.md": "298efd740d4c27cd12274ba69cd78a4481047a5995b95e857236279d0f7f5507",
     "repo/archive/08_vitaldb_original.py": "3032e7803bff8409215e29b61f05f87161842086caa0823cc73f1907698c4ec7",
     "repo/configs/feasibility.json": "0e747b0c4272e86371e77d0d056f057025f7b3f9dd83bfa8898db9fe9f2bfa0b",
     "repo/configs/models_frozen.json": "d8cb61493bca5712c0eefb4e7e471476e04b1f7f62b266f29418a564b6c263f2",
@@ -86,9 +86,9 @@
     "repo/docs/data_dictionary.md": "213a84804b35c31ec5b2da3a1d0355053324e636af1fc134377a2814b4dc5f68",
     "repo/docs/interface_failure_audit.md": "1e110b8c5f66d07906f230b8d2568b92342149d4b12a8ff948f5590d33756330",
     "repo/docs/interface_memory_extension.md": "7bb006ae68fe5771056d81ed63a08d8da4ce7727837c750ce539cf9a2b674f22",
-    "repo/docs/limitations.md": "5f3ea58495d4b9282797b101fc46c20587eb8674338f12e1346b67197458cabf",
+    "repo/docs/limitations.md": "912aeda1301285ea3501cf42fc8fc887cf0fbb8baba197ab682e750d90ee2880",
     "repo/docs/novelty_matrix.md": "a9e8ed3090190b48604f52a08e49f9b8bdd3b617a1ed262ac532c1f9b60a8b72",
-    "repo/docs/protocol.md": "69edac1b85871081a0faaae79d3f418ce6d448d1fb9f1a5e72d20d4bc9ca1b0b",
+    "repo/docs/protocol.md": "80e1b61568c3f65eb360c67832d785b9e2cf1b4ea8004105996f26b1efca5f15",
     "repo/docs/retrieval_time_audit.md": "cb6df4039f2897455f69bee0781494bb43cef2e33d6435feeeac4651fbfb8f1b",
     "repo/docs/revision_analysis.md": "f88fffc40e472d6d55e363a48f49f14be04685f916718465c2333b3d7e0028c3",
     "repo/docs/stress_extension.md": "47af7ac9f28a31db4cf135e2527867d23dddfee3919a87eca91f0b1e888f12b3",

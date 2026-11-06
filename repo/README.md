@@ -55,7 +55,7 @@ The VitalDB loader retrieves public research data under the recorded dataset con
 - `repo/docs/novelty_matrix.md`: targeted primary-source comparison; no priority claim.
 - `repo/docs/ai_review.md`: review scope and limitations.
 
-The target journal is npj Digital Medicine.
+The target journal is npj Health Systems.
 
 ## Separate exploratory extension
 The falling-glucose extension was added after the main freeze, without changing the primary study. Read docs/stress_extension.md. To regenerate in a fresh workspace, run 14_stress_data.py, then 16_stress_baselines.py after the original development-trained controls exist. Use 17_queue_stress.py to run the frozen models once each corresponding main run has completed. Verify with 12_verify_study.py --stress and analyze with 06_evaluate.py --stress. Run 20_additional_reports.py after both main and stress analyses are final.
