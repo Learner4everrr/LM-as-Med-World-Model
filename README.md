@@ -1,8 +1,14 @@
-# Language models as medical world models
+# Action fidelity in language models used as medical world models
 
-Reproducibility materials for **Action fidelity in language models used as medical world models**.
+Code, synthetic benchmark data and aggregate results accompanying the manuscript.
 
 This study tests whether general-purpose language models can simulate physiological responses to specified treatments. It uses resettable glucose and anesthesia simulators, paired alternative actions and twelve-step self-fed rollouts, with a separate factual VitalDB evaluation. It does not evaluate treatment selection or establish clinical benefit.
+
+## Authors
+
+Zaifu Zhan, Min Zeng, Kai Yu, Xiaoyi Chen, Mengyuan Cui and Rui Zhang.
+
+Corresponding author: Rui Zhang ([ruizhang@umn.edu](mailto:ruizhang@umn.edu)).
 
 ## Main result
 
@@ -32,7 +38,7 @@ env/.venv/bin/python repo/scripts/41_verify_public_results.py
 
 No raw VitalDB recordings, patient-level clinical inputs/outputs, model weights or fonts are included. Clinical replay can be reconstructed using the acquisition scripts under VitalDB's terms. The published synthetic-output archive is intentionally not a complete clinical run. Perform new inference in a separate checkout to preserve the original aggregates.
 
-Authors: Zaifu Zhan, Min Zeng, Kai Yu, Xiaoyi Chen, Mengyuan Cui and Rui Zhang. Correspondence: Rui Zhang (ruizhang@umn.edu). Original evaluation code is MIT licensed; third-party assets retain their own terms.
+Original evaluation code is MIT licensed; third-party assets retain their own terms.
 
 ## Manuscript revision analyses
 

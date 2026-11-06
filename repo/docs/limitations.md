@@ -12,4 +12,4 @@ Numerical controls have in-domain supervised training and fixed limited features
 
 The internal protocol freeze is not public preregistration. The baseline categorical correction, stress extension and post hoc audits are disclosed. No independent clinician review, comprehensive clinical safety specification, study-specific institutional ethics determination or prospective validation is claimed. The researcher authorized AI-assisted review. No clinically adequate horizon or whole-medicine world-model qualification is assigned.
 
-Target publication is npj Health Systems; use of its article structure and the requested official NeurIPS draft style is not evidence of submission, review or acceptance.
+Target publication is npj Health Systems; use of its article structure and a journal-submission layout is not evidence of submission, review or acceptance.

@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this software repository when using these evaluation materials."
 type: software
-title: "Language models as medical world models: evaluation materials"
+title: "Action fidelity in language models used as medical world models"
 authors:
   - family-names: Zhan
     given-names: Zaifu

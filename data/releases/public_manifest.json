@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-06T18:09:42.060258+00:00",
+  "timestamp_utc": "2026-11-06T18:36:22.952714+00:00",
   "scope": "Public reproducibility release: code, synthetic artifacts and aggregate results",
   "original_results_unchanged": true,
   "exclusions": [
@@ -10,9 +10,9 @@
   ],
   "files": {
     ".gitignore": "716f6af7e104a3828b332065f7896deca66acc89032f0e1c2f26576e39463f91",
-    "CITATION.cff": "5a9e2a45792e0c6ec7b8399c3d4e2c2d5a9f9d2b6540d26ddf93d18ba897b070",
+    "CITATION.cff": "9d44a4c0dc2abb67600b0a627951e2e396b0f1e40123f500dcee79afe9425ef3",
     "LICENSE": "24a3f64a4ab5af4a4525047b475d13655001e3d6376496efdba001b423d81b21",
-    "README.md": "fd6d1639daf1c3e566009023efe01339189c89dcc6221186ab8331447b342e22",
+    "README.md": "691507f4b248c8e431e2b31c09783771a7095a0bf66ea1f074376321663d9b36",
     "data/provenance/original/Qwen--Qwen2.5-7B-Instruct.json": "9360f2fea808461a0afbc5490464300c4636b4c9f2dd481ad5d720c51fb92b3b",
     "data/provenance/original/Qwen--Qwen3-8B.json": "9d445326e9539d4739c2c9572d375fd9f5a34862aaadd6cde5c7bdc45d785152",
     "data/provenance/original/README.md": "9153a217f031be599bcc0789c71645c0404d2990f07f01ba5e1a20117b688f16",
@@ -86,9 +86,9 @@
     "repo/docs/data_dictionary.md": "213a84804b35c31ec5b2da3a1d0355053324e636af1fc134377a2814b4dc5f68",
     "repo/docs/interface_failure_audit.md": "1e110b8c5f66d07906f230b8d2568b92342149d4b12a8ff948f5590d33756330",
     "repo/docs/interface_memory_extension.md": "7bb006ae68fe5771056d81ed63a08d8da4ce7727837c750ce539cf9a2b674f22",
-    "repo/docs/limitations.md": "49b77940d470af26580c203245a864ace96e6603901221291712935aef7638dd",
+    "repo/docs/limitations.md": "6e4b35c199982fbf5eb14b00d3ab97f037e2cd5edc195f330f908ad1cd0d158c",
     "repo/docs/novelty_matrix.md": "a9e8ed3090190b48604f52a08e49f9b8bdd3b617a1ed262ac532c1f9b60a8b72",
-    "repo/docs/protocol.md": "80e1b61568c3f65eb360c67832d785b9e2cf1b4ea8004105996f26b1efca5f15",
+    "repo/docs/protocol.md": "88293587347b7fcc72e6c0f6228501de3f1cb9c798c6ae9027dda7d9fbad7691",
     "repo/docs/retrieval_time_audit.md": "cb6df4039f2897455f69bee0781494bb43cef2e33d6435feeeac4651fbfb8f1b",
     "repo/docs/revision_analysis.md": "f88fffc40e472d6d55e363a48f49f14be04685f916718465c2333b3d7e0028c3",
     "repo/docs/stress_extension.md": "47af7ac9f28a31db4cf135e2527867d23dddfee3919a87eca91f0b1e888f12b3",
